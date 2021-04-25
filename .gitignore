@@ -1,0 +1,15 @@
+# Intellij IDEA
+.idea
+*.iml
+
+# Building
+.gradle
+build
+out
+target
+tmp*
+temp*
+spark-warehouse
+metastore_db
+derby.log
+_LOCAL_
