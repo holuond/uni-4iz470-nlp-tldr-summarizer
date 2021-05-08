@@ -18,8 +18,9 @@ group = 'nlp_4iz470'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
-def scalaToolsVersion = '2.13'
-def scalaVersion = '2.13.3'
+def scalaToolsVersion = '2.11'
+def scalaVersion = '2.11.12'
+def sparkVersion = '2.4.7'
 
 repositories {
     mavenCentral()
@@ -32,10 +33,13 @@ application {
 dependencies {
     implementation "org.slf4j:slf4j-log4j12:1.7.25"
     implementation "org.scala-lang:scala-library:$scalaVersion"
-    //implementation "com.github.scopt:scopt_$scalaToolsVersion:3.7.1"
+    implementation "org.apache.spark:spark-core_$scalaToolsVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-mllib_$scalaToolsVersion:$sparkVersion"
+    implementation "org.apache.spark:spark-sql_$scalaToolsVersion:$sparkVersion"
     implementation 'com.typesafe:config:1.4.0'
     implementation "com.github.pureconfig:pureconfig_$scalaToolsVersion:0.14.0"
     implementation 'commons-io:commons-io:2.4'
+    implementation "com.johnsnowlabs.nlp:spark-nlp-spark24_$scalaToolsVersion:3.0.3"
 
     //testImplementation "org.scalatest:scalatest_$scalaToolsVersion:3.2.0"
     //testImplementation 'junit:junit:4.13'
@@ -55,9 +59,14 @@ shadowJar {
     zip64 = true
     appendix = getCommitHash().substring(0, 7)
     classifier = 'fat'
-}
-
-shadowJar {
+    dependencies {
+        exclude(dependency("org.apache.spark:spark-core_$scalaToolsVersion:$sparkVersion"))
+        exclude(dependency("org.apache.spark:spark-mllib_$scalaToolsVersion:$sparkVersion"))
+        exclude(dependency("org.apache.spark:spark-sql_$scalaToolsVersion:$sparkVersion"))
+        exclude(dependency("org.apache.spark:spark-streaming_$scalaToolsVersion:$sparkVersion"))
+        exclude(dependency("org.apache.spark:spark-graphx_$scalaToolsVersion:$sparkVersion"))
+        exclude(dependency("org.apache.spark:spark-catalyst_$scalaToolsVersion:$sparkVersion"))
+    }
 }
 
 distributions {
@@ -90,7 +99,7 @@ def getCommitHash() {
         return findProperty('GIT_COMMIT').toString().trim()
     } else {
         // find out locally
-        def hash = 'git rev-parse HEAD'.execute()
+        def hash = 'git rev-parse HEAD'.execute(null, projectDir)
         hash.waitFor()
         return hash.text.toString().trim()
     }

@@ -15,6 +15,14 @@
         <priority value="DEBUG"/>
     </category>
 
+    <category name="org.apache.spark">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.spark_project.jetty">
+        <priority value="WARN"/>
+    </category>
+
     <root>
         <level value="INFO"/>
         <appender-ref ref="stdout"/>

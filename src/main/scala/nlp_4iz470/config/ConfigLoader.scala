@@ -1,10 +1,11 @@
 package nlp_4iz470.config
 
 import org.apache.log4j.Logger
-import pureconfig.ConfigSource
-// necessary for pureconfig: import pureconfig.generic.auto._
-import pureconfig.generic.auto._
+import pureconfig.{ConfigReader, ConfigSource}
 
+import java.io.File
+import java.nio.file.{Path, Paths}
+// necessary for pureconfig: import pureconfig.generic.auto._
 import scala.util.Try
 
 /**
@@ -29,4 +30,17 @@ object ConfigLoader {
       appConfig
     }
   }
+
+  /**
+   * Allows PureConfig to implicitly convert primitive types found in the HOCON config file
+   * to non-primitive types that the [[AppConfig]] case class expects.
+   */
+  object CustomConfigImplicits {
+    // HOCON String --> java.nio.Path
+    implicit val pathReader: ConfigReader[Path] = ConfigReader[String].map(Paths.get(_))
+
+    // HOCON String --> java.io.File
+    implicit val fileReader: ConfigReader[File] = ConfigReader[String].map(new File(_))
+  }
 }
+
