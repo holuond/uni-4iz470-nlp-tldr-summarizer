@@ -1,3 +1,6 @@
+_models
+_training_corpus
+
 # Intellij IDEA
 .idea
 *.iml
