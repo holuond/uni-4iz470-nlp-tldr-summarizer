@@ -40,6 +40,7 @@ dependencies {
     implementation "com.github.pureconfig:pureconfig_$scalaToolsVersion:0.14.0"
     implementation 'commons-io:commons-io:2.4'
     implementation "com.johnsnowlabs.nlp:spark-nlp-spark24_$scalaToolsVersion:3.0.3"
+    implementation 'com.lihaoyi:os-lib_3:0.7.8'
 
     //testImplementation "org.scalatest:scalatest_$scalaToolsVersion:3.2.0"
     //testImplementation 'junit:junit:4.13'

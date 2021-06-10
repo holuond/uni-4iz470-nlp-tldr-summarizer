@@ -1,5 +1,6 @@
 _models
 _training_corpus
+_documents_to_score
 
 # Intellij IDEA
 .idea
