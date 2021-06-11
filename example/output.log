@@ -1,0 +1,1522 @@
+************* Starting execution for input file: biden.txt *************
+************* Document Text *************
+What's in Biden's record $6 trillion budget for 2022.  President Biden on Friday unveiled an historically large $6 trillion 2022 budget, making his case to Congress that now is the time for America to spend big.   In his first budget proposal, which includes roughly $4 trillion in hoped-for infrastructure and families plan spending in the years ahead, there would be continued deficits and the national debt would continue to rise, even as it eclipses the country's Gross Domestic Product, or GDP.   In fiscal year 2022, the debt held by the public is expected to be $26.3 trillion, while GDP is expected to be $23.5 trillion. Despite campaigning to an extent on moderation, Mr. Biden's budget is, even in the words of White House officials on a call with reporters Friday, "transformational" and assumes a broader role for the federal government in the social safety net.    Mr. Biden's proposed budget for fiscal year 2022 surpasses former President Trump's proposed budget last year of $4.8 trillion, and comes after trillions the U.S. has already spent to battle the dual health and economic crises brought about by the COVID-19 pandemic.   Budget projections show a $6 trillion price tag is just the beginning, with spending steadily increasing each year until the budget reaches $8.2 trillion in 2031. Budget projections show debt as a percentage of Gross Domestic Product has already reached 100%, and will increase to 117% by 2031, more than the debt-to-GDP ratio of the World War II era. And by 2031, interest on the debt all by itself would cost almost $914 trillion — more than the federal government spends now on the military or education.   The White House argument that now is the time to spend big is predicated on low interest rates and the urgent need for better roads, bridges and jobs. What Biden administration officials don't say outright is that Democrats currently control the White House, Senate and the House, a potentially once-in-a-generation opportunity for Democrats to implement their agenda.   "We certainly believe that the president's budget improves the long term fiscal outlook because his policies are more than paid for over the long run," Office of Management and Budget Deputy Director Shalanda Young said on the conference call with reporters Friday morning.   Young noted that the American Jobs Plan and the American Families Plan are "fully offset within 15 years."   Mr. Biden has already said he wants to pay for his infrastructure and families plans by increasing taxes on those making more than $400,000, and by increasing the top corporate tax rate to 28%, up from its current rate of 21%. The top corporate tax rate was 35% before the Trump-era tax cuts.   It's not clear how the American Jobs Plan and American Families Plan would affect real annual GDP growth, which the Biden administration estimates will be 2% in 10 years without those two plans. On a call with reporters Friday, White House officials admitted that there will be "some short term inflation," although they expect that to settle down in the years to come.   The president's proposal provides a $500 million increase for Homeless Assistance Grants; increases funds for civil rights offices and activities across the government; provides the most ever discretionary funding for the Centers for Disease Control and Prevention ($8.7 billion); and would put $936 million into a new Accelerating Environmental and Economic Justice Initiative at the Environmental Protection Agency. The budget also calls on Congress to address prescription drug prices and to expand Medicare.  The president's budget request for the Pentagon is $715 billion, a 1.6% increase over the current budget. Included in that is a $5.1 billion enhancement of the Pacific Deterrence Initiative meant to maintain the United States' edge over China, which Defense Secretary Lloyd Austin calls the department's "pacing challenge." The Pentagon budget request includes $617 million in new investments to tackle climate change. It also requests more funding for COVID-19 and pandemic response activities, like testing and medical research.   Mr. Biden's budget proposal is just that — a proposal. A president's budget is a blueprint, giving a clear picture of a president's priorities. The ball is now in Congress' court, and members will be massaging their own ideas of what the budget should look like in the weeks and months ahead. Mr. Biden has already outlined much of the spending he wants in the American Jobs Plan and American Families Plan.  Republicans, who have already been blasting Mr. Biden's proposals as too massive, are sure to balk at not only the $6 trillion price tag for 2022, but also at the ever-increasing budgets and increasing national debt the White House projects into the future. The national debt, which grew by roughly 74% under former President Barack Obama in eight years and roughly 33% under Mr. Trump in four years, has increased by more than $3 trillion in the barely one year since the pandemic began.   The budget proposal comes as the White House continues to negotiate with Republicans and Democrats on the American Jobs Plan. Republicans proposed spending less than $1 trillion on infrastructure, far less than what Mr. Biden had originally pitched, but also more than Republicans had offered initially. Republicans want an infrastructure package to focus exclusively on so-called "hard" infrastructure, like roads, bridges and tunnels, while Democrats want the package to be much more expansive.   Mr. Biden is sending his budget to Congress well beyond a deadline than is typical for a president, after a delayed transition and as the Biden administration still lacks a confirmed OMB director. Mr. Biden initially nominated Neera Tanden for the position, but she withdrew from consideration when it became clear she lacked sufficient support in the Senate.   Budget hawks immediately expressed concerns that Mr. Biden's budget will add to the deficit and debt.  "The budget proposes $5 trillion of spending and tax breaks and only pays for three-quarters of the cost, leaving nearly $1.4 trillion of higher debt," Committee for a Responsible Federal Budget President Maya MacGuineas said in a statement. "Debt under the budget would hit new records almost every year. Furthermore, before we enact trillions of dollars in new initiatives, we need a plan to finance or cut back what we've already committed to. Any comprehensive plan to invest in the future must address our unsustainable fiscal outlook. We should work to leave our children a strong economy and a sound budget, not a mountain of debt."  Congress has until the end of September to pass 12 appropriations or spending bills before government funding runs out. 
+
+************* Annotated DataFrame (1 row per lemma occurrence) *************
+root
+ |-- lemmaId: integer (nullable = false)
+ |-- lemma: string (nullable = true)
+ |-- lemmaVocabId: integer (nullable = false)
+ |-- tfIdf: double (nullable = false)
+ |-- sentenceText: string (nullable = true)
+ |-- sentenceId: integer (nullable = false)
+ |-- lemmaCount: long (nullable = false)
+ |-- idf: double (nullable = true)
+
++-------+-----------------+------------+------------------+--------------------+----------+----------+------------------+
+|lemmaId|            lemma|lemmaVocabId|             tfIdf|        sentenceText|sentenceId|lemmaCount|               idf|
++-------+-----------------+------------+------------------+--------------------+----------+----------+------------------+
+|    331|            biden|       15108|112.64973354094322|Republicans, who ...|        28|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Republicans propo...|        31|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Budget hawks imme...|        35|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|It's not clear ho...|        14|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Mr. Biden initial...|        34|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|President Biden o...|         1|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Mr. Biden has alr...|        27|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Mr. Biden's budge...|        24|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Mr. Biden is send...|        33|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Despite campaigni...|         4|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|Mr. Biden's propo...|         5|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|What's in Biden's...|         0|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|" Mr. Biden has a...|        12|        14| 8.046409538638802|
+|    331|            biden|       15108|112.64973354094322|What Biden admini...|        10|        14| 8.046409538638802|
+|    182|           budget|        1012| 91.82476326363579|Included in that ...|        22|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|"The budget propo...|        36|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|The ball is now i...|        26|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Mr. Biden's budge...|        24|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Mr. Biden is send...|        33|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|"We certainly bel...|        11|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|President Biden o...|         1|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|What's in Biden's...|         0|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|In his first budg...|         2|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Budget projection...|         7|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Despite campaigni...|         4|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|The budget also c...|        20|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|We should work to...|        39|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|The budget propos...|        30|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Republicans, who ...|        28|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|The president's b...|        21|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Mr. Biden's propo...|         5|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|A president's bud...|        25|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Budget hawks imme...|        35|        20|  4.59123816318179|
+|    182|           budget|        1012| 91.82476326363579|Budget projection...|         6|        20|  4.59123816318179|
+|    313|         trillion|        7747| 84.16867065320449|President Biden o...|         1|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|Republicans propo...|        31|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|The national debt...|        29|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|Mr. Biden's propo...|         5|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|In his first budg...|         2|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|In fiscal year 20...|         3|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|And by 2031, inte...|         8|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|Republicans, who ...|        28|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|What's in Biden's...|         0|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|"The budget propo...|        36|        11|7.6516973321094985|
+|    313|         trillion|        7747| 84.16867065320449|Budget projection...|         6|        11|7.6516973321094985|
+|    208|             debt|        1306| 42.18822373614765|And by 2031, inte...|         8|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|Budget projection...|         7|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|The national debt...|        29|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|In fiscal year 20...|         3|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|Budget hawks imme...|        35|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|We should work to...|        39|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|In his first budg...|         2|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|Republicans, who ...|        28|         9| 4.687580415127517|
+|    208|             debt|        1306| 42.18822373614765|"The budget propo...|        36|         9| 4.687580415127517|
+|    148|               mr|         582| 37.59658251022339|Despite campaigni...|         4|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Budget hawks imme...|        35|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Mr. Biden is send...|        33|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Mr. Biden's budge...|        24|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Mr. Biden has alr...|        27|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Mr. Biden's propo...|         5|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|The national debt...|        29|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Republicans propo...|        31|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Mr. Biden initial...|        34|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|" Mr. Biden has a...|        12|        11|3.4178711372930355|
+|    148|               mr|         582| 37.59658251022339|Republicans, who ...|        28|        11|3.4178711372930355|
+|    329|             2022|       14706| 34.20370288178245|Republicans, who ...|        28|         5|  6.84074057635649|
+|    329|             2022|       14706| 34.20370288178245|President Biden o...|         1|         5|  6.84074057635649|
+|    329|             2022|       14706| 34.20370288178245|What's in Biden's...|         0|         5|  6.84074057635649|
+|    329|             2022|       14706| 34.20370288178245|Mr. Biden's propo...|         5|         5|  6.84074057635649|
+|    329|             2022|       14706| 34.20370288178245|In fiscal year 20...|         3|         5|  6.84074057635649|
+|    143|        president|         533|  29.0378895157135|A president's bud...|        25|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|"We certainly bel...|        11|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|The national debt...|        29|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|"The budget propo...|        36|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|Mr. Biden is send...|        33|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|Mr. Biden's propo...|         5|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|The president's b...|        21|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|The president's p...|        16|         9| 3.226432168412611|
+|    143|        president|         533|  29.0378895157135|President Biden o...|         1|         9| 3.226432168412611|
+|    257|         proposal|        2438|26.398782299937636|In his first budg...|         2|         5| 5.279756459987527|
+|    257|         proposal|        2438|26.398782299937636|The budget propos...|        30|         5| 5.279756459987527|
+|    257|         proposal|        2438|26.398782299937636|The president's p...|        16|         5| 5.279756459987527|
+|    257|         proposal|        2438|26.398782299937636|Mr. Biden's budge...|        24|         5| 5.279756459987527|
+|    257|         proposal|        2438|26.398782299937636|Republicans, who ...|        28|         5| 5.279756459987527|
+|    346|             2031|       43685|25.921791767451495|Budget projection...|         6|         3| 8.640597255817164|
+|    346|             2031|       43685|25.921791767451495|And by 2031, inte...|         8|         3| 8.640597255817164|
+|    346|             2031|       43685|25.921791767451495|Budget projection...|         7|         3| 8.640597255817164|
+|    340|         pandemic|       23930| 23.15832100287551|The national debt...|        29|         3|7.7194403342918365|
+|    340|         pandemic|       23930| 23.15832100287551|It also requests ...|        23|         3|7.7194403342918365|
+|    340|         pandemic|       23930| 23.15832100287551|Mr. Biden's propo...|         5|         3|7.7194403342918365|
+|    243|       republican|        1994| 22.97704389181905|The budget propos...|        30|         4| 5.744260972954763|
+|    243|       republican|        1994| 22.97704389181905|Republicans, who ...|        28|         4| 5.744260972954763|
+|    243|       republican|        1994| 22.97704389181905|Republicans want ...|        32|         4| 5.744260972954763|
+|    243|       republican|        1994| 22.97704389181905|Republicans propo...|        31|         4| 5.744260972954763|
+|     47|             plan|         108|22.592412788619527|In his first budg...|         2|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|Any comprehensive...|        38|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|" Mr. Biden has a...|        12|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|Mr. Biden has alr...|        27|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|It's not clear ho...|        14|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|Furthermore, befo...|        37|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|"We certainly bel...|        11|         8| 2.824051598577441|
+|     47|             plan|         108|22.592412788619527|The budget propos...|        30|         8| 2.824051598577441|
+|    255|         congress|        2367|22.469921325246535|Mr. Biden is send...|        33|         5| 4.493984265049307|
+|    255|         congress|        2367|22.469921325246535|" Congress has un...|        40|         5| 4.493984265049307|
+|    255|         congress|        2367|22.469921325246535|The ball is now i...|        26|         5| 4.493984265049307|
+|    255|         congress|        2367|22.469921325246535|President Biden o...|         1|         5| 4.493984265049307|
+|    255|         congress|        2367|22.469921325246535|The budget also c...|        20|         5| 4.493984265049307|
+|    256|   infrastructure|        2386|21.436670040520678|In his first budg...|         2|         4|5.3591675101301695|
+|    256|   infrastructure|        2386|21.436670040520678|Republicans propo...|        31|         4|5.3591675101301695|
+|    256|   infrastructure|        2386|21.436670040520678|" Mr. Biden has a...|        12|         4|5.3591675101301695|
+|    256|   infrastructure|        2386|21.436670040520678|Republicans want ...|        32|         4|5.3591675101301695|
+|     89|            spend|         253|21.419478508369515|Mr. Biden's propo...|         5|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|And by 2031, inte...|         8|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|The White House a...|         9|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|Mr. Biden has alr...|        27|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|"The budget propo...|        36|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|In his first budg...|         2|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|" Congress has un...|        40|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|President Biden o...|         1|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|Republicans propo...|        31|        10|2.1419478508369516|
+|     89|            spend|         253|21.419478508369515|Budget projection...|         6|        10|2.1419478508369516|
+|    292|           fiscal|        4537|20.826440205328073|Mr. Biden's propo...|         5|         4| 5.206610051332018|
+|    292|           fiscal|        4537|20.826440205328073|"We certainly bel...|        11|         4| 5.206610051332018|
+|    292|           fiscal|        4537|20.826440205328073|Any comprehensive...|        38|         4| 5.206610051332018|
+|    292|           fiscal|        4537|20.826440205328073|In fiscal year 20...|         3|         4| 5.206610051332018|
+|     86|         increase|         243| 20.15321844422966|" Mr. Biden has a...|        12|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|Budget projection...|         7|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|Budget projection...|         6|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|Republicans, who ...|        28|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|The national debt...|        29|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|increases funds f...|        17|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|The president's p...|        16|         8|2.5191523055287073|
+|     86|         increase|         243| 20.15321844422966|The president's b...|        21|         8|2.5191523055287073|
+|    269|         democrat|        3126| 19.95595678600184|The budget propos...|        30|         3| 6.651985595333946|
+|    269|         democrat|        3126| 19.95595678600184|Republicans want ...|        32|         3| 6.651985595333946|
+|    269|         democrat|        3126| 19.95595678600184|What Biden admini...|        10|         3| 6.651985595333946|
+|    317|              gdp|        8127|18.721461428067723|It's not clear ho...|        14|         3| 6.240487142689241|
+|    317|              gdp|        8127|18.721461428067723|In fiscal year 20...|         3|         3| 6.240487142689241|
+|    317|              gdp|        8127|18.721461428067723|In his first budg...|         2|         3| 6.240487142689241|
+|     96|         american|         277| 17.49102053316731|Mr. Biden has alr...|        27|         4| 4.372755133291827|
+|     96|         american|         277| 17.49102053316731|It's not clear ho...|        14|         4| 4.372755133291827|
+|     96|         american|         277| 17.49102053316731|"We certainly bel...|        11|         4| 4.372755133291827|
+|     96|         american|         277| 17.49102053316731|The budget propos...|        30|         4| 4.372755133291827|
+|    118|              tax|         374| 16.66044050002999|" Mr. Biden has a...|        12|         3| 5.553480166676663|
+|    118|              tax|         374| 16.66044050002999|"The budget propo...|        36|         3| 5.553480166676663|
+|    118|              tax|         374| 16.66044050002999|The top corporate...|        13|         3| 5.553480166676663|
+|    232|          propose|        1751|15.651974470116603|"The budget propo...|        36|         3| 5.217324823372201|
+|    232|          propose|        1751|15.651974470116603|Republicans propo...|        31|         3| 5.217324823372201|
+|    232|          propose|        1751|15.651974470116603|Mr. Biden's propo...|         5|         3| 5.217324823372201|
+|    110|            white|         341|  15.6044947874998|Despite campaigni...|         4|         6|2.6007491312499664|
+|    110|            white|         341|  15.6044947874998|Republicans, who ...|        28|         6|2.6007491312499664|
+|    110|            white|         341|  15.6044947874998|On a call with re...|        15|         6|2.6007491312499664|
+|    110|            white|         341|  15.6044947874998|The budget propos...|        30|         6|2.6007491312499664|
+|    110|            white|         341|  15.6044947874998|The White House a...|         9|         6|2.6007491312499664|
+|    110|            white|         341|  15.6044947874998|What Biden admini...|        10|         6|2.6007491312499664|
+|     58|            house|         149|15.227011680109051|The budget propos...|        30|         6| 2.537835280018175|
+|     58|            house|         149|15.227011680109051|The White House a...|         9|         6| 2.537835280018175|
+|     58|            house|         149|15.227011680109051|Despite campaigni...|         4|         6| 2.537835280018175|
+|     58|            house|         149|15.227011680109051|On a call with re...|        15|         6| 2.537835280018175|
+|     58|            house|         149|15.227011680109051|Republicans, who ...|        28|         6| 2.537835280018175|
+|     58|            house|         149|15.227011680109051|What Biden admini...|        10|         6| 2.537835280018175|
+|    336|        trillions|       20414|14.768712045890943|Furthermore, befo...|        37|         2| 7.384356022945472|
+|    336|        trillions|       20414|14.768712045890943|Mr. Biden's propo...|         5|         2| 7.384356022945472|
+|    323|         pentagon|       11051|13.267715091828121|The president's b...|        21|         2|6.6338575459140605|
+|    323|         pentagon|       11051|13.267715091828121|Included in that ...|        22|         2|6.6338575459140605|
+|    272|          roughly|        3309| 13.18363205227007|In his first budg...|         2|         2| 6.591816026135035|
+|    272|          roughly|        3309| 13.18363205227007|The national debt...|        29|         2| 6.591816026135035|
+|    265|         reporter|        2724|13.144075615200205|On a call with re...|        15|         3| 4.381358538400068|
+|    265|         reporter|        2724|13.144075615200205|"We certainly bel...|        11|         3| 4.381358538400068|
+|    265|         reporter|        2724|13.144075615200205|Despite campaigni...|         4|         3| 4.381358538400068|
+|     98|          already|         283|12.471813428535746|Budget projection...|         7|         6|2.0786355714226246|
+|     98|          already|         283|12.471813428535746|Mr. Biden's propo...|         5|         6|2.0786355714226246|
+|     98|          already|         283|12.471813428535746|" Mr. Biden has a...|        12|         6|2.0786355714226246|
+|     98|          already|         283|12.471813428535746|Republicans, who ...|        28|         6|2.0786355714226246|
+|     98|          already|         283|12.471813428535746|Mr. Biden has alr...|        27|         6|2.0786355714226246|
+|     98|          already|         283|12.471813428535746|Furthermore, befo...|        37|         6|2.0786355714226246|
+|    169|           friday|         891|12.345637838711212|"We certainly bel...|        11|         4| 3.086409459677803|
+|    169|           friday|         891|12.345637838711212|On a call with re...|        15|         4| 3.086409459677803|
+|    169|           friday|         891|12.345637838711212|President Biden o...|         1|         4| 3.086409459677803|
+|    169|           friday|         891|12.345637838711212|Despite campaigni...|         4|         4| 3.086409459677803|
+|    140|             fund|         514|11.888251630763406|" Congress has un...|        40|         4|2.9720629076908516|
+|    140|             fund|         514|11.888251630763406|provides the most...|        18|         4|2.9720629076908516|
+|    140|             fund|         514|11.888251630763406|It also requests ...|        23|         4|2.9720629076908516|
+|    140|             fund|         514|11.888251630763406|increases funds f...|        17|         4|2.9720629076908516|
+|    223|          billion|        1565|11.682544814628042|provides the most...|        18|         3| 3.894181604876014|
+|    223|          billion|        1565|11.682544814628042|The president's b...|        21|         3| 3.894181604876014|
+|    223|          billion|        1565|11.682544814628042|Included in that ...|        22|         3| 3.894181604876014|
+|    237|       initiative|        1901|11.587497265008961|Furthermore, befo...|        37|         3|3.8624990883363206|
+|    237|       initiative|        1901|11.587497265008961|and would put $93...|        19|         3|3.8624990883363206|
+|    237|       initiative|        1901|11.587497265008961|Included in that ...|        22|         3|3.8624990883363206|
+|     73|              job|         207|11.236256249905772|It's not clear ho...|        14|         5|2.2472512499811543|
+|     73|              job|         207|11.236256249905772|The budget propos...|        30|         5|2.2472512499811543|
+|     73|              job|         207|11.236256249905772|"We certainly bel...|        11|         5|2.2472512499811543|
+|     73|              job|         207|11.236256249905772|The White House a...|         9|         5|2.2472512499811543|
+|     73|              job|         207|11.236256249905772|Mr. Biden has alr...|        27|         5|2.2472512499811543|
+|    220|   administration|        1501|11.212478557860853|It's not clear ho...|        14|         3|3.7374928526202846|
+|    220|   administration|        1501|11.212478557860853|Mr. Biden is send...|        33|         3|3.7374928526202846|
+|    220|   administration|        1501|11.212478557860853|What Biden admini...|        10|         3|3.7374928526202846|
+|      5|             year|           9|10.998593635996908|"We certainly bel...|        11|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|It's not clear ho...|        14|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|"The budget propo...|        36|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|In his first budg...|         2|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|Budget projection...|         6|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|Mr. Biden's propo...|         5|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|The national debt...|        29|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|In fiscal year 20...|         3|         9| 1.222065959555212|
+|      5|             year|           9|10.998593635996908|On a call with re...|        15|         9| 1.222065959555212|
+|    351|           tanden|      228101|10.967874961401582|Mr. Biden initial...|        34|         1|10.967874961401582|
+|    108|       government|         330| 10.93748728467035|And by 2031, inte...|         8|         4|2.7343718211675876|
+|    108|       government|         330| 10.93748728467035|Despite campaigni...|         4|         4|2.7343718211675876|
+|    108|       government|         330| 10.93748728467035|increases funds f...|        17|         4|2.7343718211675876|
+|    108|       government|         330| 10.93748728467035|" Congress has un...|        40|         4|2.7343718211675876|
+|    350|            neera|      200084|10.744731410087372|Mr. Biden initial...|        34|         1|10.744731410087372|
+|    302|          deficit|        5229|10.713146679079092|In his first budg...|         2|         2| 5.356573339539546|
+|    302|          deficit|        5229|10.713146679079092|Budget hawks imme...|        35|         2| 5.356573339539546|
+|    290|       projection|        4108|10.630771562265862|Budget projection...|         6|         2| 5.315385781132931|
+|    290|       projection|        4108|10.630771562265862|Budget projection...|         7|         2| 5.315385781132931|
+|    176|          federal|         958|10.318226385372633|Despite campaigni...|         4|         3|3.4394087951242107|
+|    176|          federal|         958|10.318226385372633|"The budget propo...|        36|         3|3.4394087951242107|
+|    176|          federal|         958|10.318226385372633|And by 2031, inte...|         8|         3|3.4394087951242107|
+|    291|          outlook|        4416|10.190106388848744|"We certainly bel...|        11|         2| 5.095053194424372|
+|    291|          outlook|        4416|10.190106388848744|Any comprehensive...|        38|         2| 5.095053194424372|
+|     88|             rate|         251|10.000328481121885|The top corporate...|        13|         3| 3.333442827040628|
+|     88|             rate|         251|10.000328481121885|" Mr. Biden has a...|        12|         3| 3.333442827040628|
+|     88|             rate|         251|10.000328481121885|The White House a...|         9|         3| 3.333442827040628|
+|    273|           senate|        3368| 9.999613984199991|Mr. Biden initial...|        34|         2|4.9998069920999955|
+|    273|           senate|        3368| 9.999613984199991|What Biden admini...|        10|         2|4.9998069920999955|
+|    348|        debttogdp|       95506|   9.9562740497231|Budget projection...|         7|         1|   9.9562740497231|
+|    349|onceinageneration|      120441|   9.9562740497231|What Biden admini...|        10|         1|   9.9562740497231|
+|     49|           family|         111| 9.668823682915184|" Mr. Biden has a...|        12|         5|1.9337647365830368|
+|     49|           family|         111| 9.668823682915184|It's not clear ho...|        14|         5|1.9337647365830368|
+|     49|           family|         111| 9.668823682915184|In his first budg...|         2|         5|1.9337647365830368|
+|     49|           family|         111| 9.668823682915184|"We certainly bel...|        11|         5|1.9337647365830368|
+|     49|           family|         111| 9.668823682915184|Mr. Biden has alr...|        27|         5|1.9337647365830368|
+|    347|         hopedfor|       87720| 9.463797564625308|In his first budg...|         2|         1| 9.463797564625308|
+|    115|                6|         361| 9.438431292343891|Budget projection...|         6|         4|2.3596078230859727|
+|    115|                6|         361| 9.438431292343891|President Biden o...|         1|         4|2.3596078230859727|
+|    115|                6|         361| 9.438431292343891|What's in Biden's...|         0|         4|2.3596078230859727|
+|    115|                6|         361| 9.438431292343891|Republicans, who ...|        28|         4|2.3596078230859727|
+|    275|            gross|        3418| 9.426170146693115|In his first budg...|         2|         2| 4.713085073346558|
+|    275|            gross|        3418| 9.426170146693115|Budget projection...|         7|         2| 4.713085073346558|
+|    345|              omb|       43526| 9.309646884798049|Mr. Biden is send...|        33|         1| 9.309646884798049|
+|    156|          request|         708| 9.073607833071918|The president's b...|        21|         3| 3.024535944357306|
+|    156|          request|         708| 9.073607833071918|Included in that ...|        22|         3| 3.024535944357306|
+|    156|          request|         708| 9.073607833071918|It also requests ...|        23|         3| 3.024535944357306|
+|    158|         official|         753| 8.787362634156544|On a call with re...|        15|         3|2.9291208780521814|
+|    158|         official|         753| 8.787362634156544|Despite campaigni...|         4|         3|2.9291208780521814|
+|    158|         official|         753| 8.787362634156544|What Biden admini...|        10|         3|2.9291208780521814|
+|    195|            trump|        1174|  8.61204044171254|Mr. Biden's propo...|         5|         2|  4.30602022085627|
+|    195|            trump|        1174|  8.61204044171254|The national debt...|        29|         2|  4.30602022085627|
+|    252|         domestic|        2232| 8.470732651082875|In his first budg...|         2|         2| 4.235366325541437|
+|    252|         domestic|        2232| 8.470732651082875|Budget projection...|         7|         2| 4.235366325541437|
+|    132|          million|         466|  8.29227597302957|and would put $93...|        19|         3|2.7640919910098565|
+|    132|          million|         466|  8.29227597302957|Included in that ...|        22|         3|2.7640919910098565|
+|    132|          million|         466|  8.29227597302957|The president's p...|        16|         3|2.7640919910098565|
+|    343|       deterrence|       27257| 8.120062817924213|Included in that ...|        22|         1| 8.120062817924213|
+|    228|    environmental|        1653| 8.045647795351496|and would put $93...|        19|         1| 8.045647795351496|
+|    344|              936|       33871|  8.02343598223514|and would put $93...|        19|         1|  8.02343598223514|
+|    259|        initially|        2502| 7.955236921815402|Republicans propo...|        31|         2| 3.977618460907701|
+|    259|        initially|        2502| 7.955236921815402|Mr. Biden initial...|        34|         2| 3.977618460907701|
+|    339|              914|       23754| 7.789821131053636|And by 2031, inte...|         8|         1| 7.789821131053636|
+|    342|             what|       26789| 7.789821131053636|What's in Biden's...|         0|         1| 7.789821131053636|
+|     32|             call|          63| 7.780729849571092|On a call with re...|        15|         5|1.5561459699142184|
+|     32|             call|          63| 7.780729849571092|Despite campaigni...|         4|         5|1.5561459699142184|
+|     32|             call|          63| 7.780729849571092|The budget also c...|        20|         5|1.5561459699142184|
+|     32|             call|          63| 7.780729849571092|"We certainly bel...|        11|         5|1.5561459699142184|
+|     32|             call|          63| 7.780729849571092|Included in that ...|        22|         5|1.5561459699142184|
+|    341|              617|       26702|7.6907302284094055|Included in that ...|        22|         1|7.6907302284094055|
+|    226|              tag|        1611|7.6771548249444175|Budget projection...|         6|         2|3.8385774124722087|
+|    226|              tag|        1611|7.6771548249444175|Republicans, who ...|        28|         2|3.8385774124722087|
+|    212|           bridge|        1344| 7.660001034737619|The White House a...|         9|         2|3.8300005173688096|
+|    212|           bridge|        1344| 7.660001034737619|Republicans want ...|        32|         2|3.8300005173688096|
+|    224|        corporate|        1569| 7.593588682944806|" Mr. Biden has a...|        12|         2| 3.796794341472403|
+|    224|        corporate|        1569| 7.593588682944806|The top corporate...|        13|         2| 3.796794341472403|
+|    337|              263|       20758| 7.297923517173165|In fiscal year 20...|         3|         1| 7.297923517173165|
+|    338|   everincreasing|       22309| 7.278995507287646|Republicans, who ...|        28|         1| 7.278995507287646|
+|    101|         national|         305| 7.276358147818705|The national debt...|        29|         3|2.4254527159395685|
+|    101|         national|         305| 7.276358147818705|In his first budg...|         2|         3|2.4254527159395685|
+|    101|         national|         305| 7.276358147818705|Republicans, who ...|        28|         3|2.4254527159395685|
+|    334|              715|       19164| 7.230205343118214|The president's b...|        21|         1| 7.230205343118214|
+|    328|        predicate|       14323| 7.224270607598399|The White House a...|         9|         1| 7.224270607598399|
+|    333| transformational|       19032|  7.20667484570802|Despite campaigni...|         4|         1|  7.20667484570802|
+|    124|            clear|         409| 7.184464261466167|Mr. Biden initial...|        34|         3|2.3948214204887224|
+|    124|            clear|         409| 7.184464261466167|It's not clear ho...|        14|         3|2.3948214204887224|
+|    124|            clear|         409| 7.184464261466167|A president's bud...|        25|         3|2.3948214204887224|
+|    198|         economic|        1184| 7.180857204024018|and would put $93...|        19|         2| 3.590428602012009|
+|    198|         economic|        1184| 7.180857204024018|Mr. Biden's propo...|         5|         2| 3.590428602012009|
+|     69|            price|         194| 7.116305009587461|The budget also c...|        20|         3| 2.372101669862487|
+|     69|            price|         194| 7.116305009587461|Republicans, who ...|        28|         3| 2.372101669862487|
+|     69|            price|         194| 7.116305009587461|Budget projection...|         6|         3| 2.372101669862487|
+|    335|             balk|       19794| 7.107145250360986|Republicans, who ...|        28|         1| 7.107145250360986|
+|    332|    unsustainable|       18201| 7.045901625120267|Any comprehensive...|        38|         1| 7.045901625120267|
+|    113|           expect|         352| 6.814470318600952|On a call with re...|        15|         2| 3.407235159300476|
+|    113|           expect|         352| 6.814470318600952|In fiscal year 20...|         3|         2| 3.407235159300476|
+|    326|    discretionary|       12662| 6.793487691505945|provides the most...|        18|         1| 6.793487691505945|
+|    324|    appropriation|       11693| 6.778220219375156|" Congress has un...|        40|         1| 6.778220219375156|
+|    330|     threequarter|       14819| 6.691208842385526|"The budget propo...|        36|         1| 6.691208842385526|
+|    327|              235|       13264| 6.588978219736628|In fiscal year 20...|         3|         1| 6.588978219736628|
+|    170|          package|         899| 6.517357584448463|Republicans want ...|        32|         1| 6.517357584448463|
+|    325|           400000|       11972|  6.37528355762035|" Mr. Biden has a...|        12|         1|  6.37528355762035|
+|     61|              pay|         155| 6.329478889963131|"The budget propo...|        36|         3| 2.109826296654377|
+|     61|              pay|         155| 6.329478889963131|"We certainly bel...|        11|         3| 2.109826296654377|
+|     61|              pay|         155| 6.329478889963131|" Mr. Biden has a...|        12|         3| 2.109826296654377|
+|    194|            ahead|        1152| 6.272118426561858|The ball is now i...|        26|         2| 3.136059213280929|
+|    194|            ahead|        1152| 6.272118426561858|In his first budg...|         2|         2| 3.136059213280929|
+|    321|       moderation|        9899| 6.258344760089248|Despite campaigni...|         4|         1| 6.258344760089248|
+|    314|             maya|        7861| 6.256095040355232|"The budget propo...|        36|         1| 6.256095040355232|
+|    322|             dont|       10471| 6.222942833038331|What Biden admini...|        10|         1| 6.222942833038331|
+|    315|            lloyd|        7905| 6.127632653234007|Included in that ...|        22|         1| 6.127632653234007|
+|    181|             lack|         999|  6.08760527295633|Mr. Biden is send...|        33|         2| 3.043802636478165|
+|    181|             lack|         999|  6.08760527295633|Mr. Biden initial...|        34|         2| 3.043802636478165|
+|    320|              117|        9753| 6.071902575625466|Budget projection...|         7|         1| 6.071902575625466|
+|    318|        blueprint|        8718| 6.046070881011942|A president's bud...|        25|         1| 6.046070881011942|
+|    319|        expansive|        9720|5.9774423746228456|Republicans want ...|        32|         1|5.9774423746228456|
+|    301|         medicare|        5193|5.9180189541520445|The budget also c...|        20|         1|5.9180189541520445|
+|     77|         continue|         216| 5.895152654561729|The budget propos...|        30|         2|2.9475763272808644|
+|     77|         continue|         216| 5.895152654561729|In his first budg...|         2|         2|2.9475763272808644|
+|    297|          eclipse|        4939| 5.881823028020571|In his first budg...|         2|         1| 5.881823028020571|
+|    304|             hawk|        6112| 5.813139323331569|Budget hawks imme...|        35|         1| 5.813139323331569|
+|    160|           former|         774| 5.721514981302383|The national debt...|        29|         2|2.8607574906511917|
+|    160|           former|         774| 5.721514981302383|Mr. Biden's propo...|         5|         2|2.8607574906511917|
+|    316|         outright|        7978| 5.714293488694937|What Biden admini...|        10|         1| 5.714293488694937|
+|    311|            enact|        7100| 5.683403001675598|Furthermore, befo...|        37|         1| 5.683403001675598|
+|    308|           barack|        6765| 5.617202364519617|The national debt...|        29|         1| 5.617202364519617|
+|    147|         director|         577| 5.613142616300482|"We certainly bel...|        11|         2| 2.806571308150241|
+|    147|         director|         577| 5.613142616300482|Mr. Biden is send...|        33|         2| 2.806571308150241|
+|    138|             road|         504| 5.545082588477423|Republicans want ...|        32|         2|2.7725412942387115|
+|    138|             road|         504| 5.545082588477423|The White House a...|         9|         2|2.7725412942387115|
+|    309|               87|        6846| 5.509353843313209|provides the most...|        18|         1| 5.509353843313209|
+|    296|         homeless|        4914| 5.500870229335394|The president's p...|        16|         1| 5.500870229335394|
+|    312|          surpass|        7116| 5.481005488308954|Mr. Biden's propo...|         5|         1| 5.481005488308954|
+|    310|         steadily|        7050| 5.456464379392837|Budget projection...|         6|         1| 5.456464379392837|
+|    306|           urgent|        6316| 5.436463712686167|The White House a...|         9|         1| 5.436463712686167|
+|    295|        inflation|        4631| 5.427592289298747|On a call with re...|        15|         1| 5.427592289298747|
+|    307|               82|        6423| 5.420746296790758|Budget projection...|         6|         1| 5.420746296790758|
+|    305|               74|        6278| 5.406232253906503|The national debt...|        29|         1| 5.406232253906503|
+|    139|          address|         505| 5.399312162668151|The budget also c...|        20|         2|2.6996560813340755|
+|    139|          address|         505| 5.399312162668151|Any comprehensive...|        38|         2|2.6996560813340755|
+|    286|          massage|        3940|5.3049144812656355|The ball is now i...|        26|         1|5.3049144812656355|
+|    126|         activity|         427| 5.222640231896314|increases funds f...|        17|         2| 2.611320115948157|
+|    126|         activity|         427| 5.222640231896314|It also requests ...|        23|         2| 2.611320115948157|
+|    288|           tunnel|        4061| 5.216890885261087|Republicans want ...|        32|         1| 5.216890885261087|
+|    300|      enhancement|        5169| 5.201117687583992|Included in that ...|        22|         1| 5.201117687583992|
+|    283|     prescription|        3793|  5.12360616911218|The budget also c...|        20|         1|  5.12360616911218|
+|    293|         nominate|        4587| 5.116391130598029|Mr. Biden initial...|        34|         1| 5.116391130598029|
+|    303|     historically|        5523| 5.099284512444134|President Biden o...|         1|         1| 5.099284512444134|
+|    116|              cut|         362| 5.093944860607261|The top corporate...|        13|         2|2.5469724303036303|
+|    116|              cut|         362| 5.093944860607261|Furthermore, befo...|        37|         2|2.5469724303036303|
+|    119|           office|         375| 5.088776472851305|increases funds f...|        17|         2|2.5443882364256525|
+|    119|           office|         375| 5.088776472851305|"We certainly bel...|        11|         2|2.5443882364256525|
+|    299|           unveil|        5030| 4.999167401416216|President Biden o...|         1|         1| 4.999167401416216|
+|    298|             weve|        5017| 4.973290286957356|Furthermore, befo...|        37|         1| 4.973290286957356|
+|    268|           austin|        3035| 4.964605368843837|Included in that ...|        22|         1| 4.964605368843837|
+|    284|           offset|        3891|4.9228696473655695|"We certainly bel...|        11|         1|4.9228696473655695|
+|    294|         socalled|        4588|4.8828062343343746|Republicans want ...|        32|         1|4.8828062343343746|
+|    277|           deputy|        3542| 4.877696941357567|"We certainly bel...|        11|         1| 4.877696941357567|
+|     91|           record|         257|4.8538328328701645|"The budget propo...|        36|         2|2.4269164164350823|
+|     91|           record|         257|4.8538328328701645|What's in Biden's...|         0|         2|2.4269164164350823|
+|    120|          current|         384|  4.84632776789721|The president's b...|        21|         2| 2.423163883948605|
+|    120|          current|         384|  4.84632776789721|" Mr. Biden has a...|        12|         2| 2.423163883948605|
+|     14|             want|          27| 4.826108704106305|" Mr. Biden has a...|        12|         3|1.6087029013687684|
+|     14|             want|          27| 4.826108704106305|Republicans want ...|        32|         3|1.6087029013687684|
+|     14|             want|          27| 4.826108704106305|Mr. Biden has alr...|        27|         3|1.6087029013687684|
+|    133|            reach|         471| 4.814765691180393|Budget projection...|         7|         2|2.4073828455901967|
+|    133|            reach|         471| 4.814765691180393|Budget projection...|         6|         2|2.4073828455901967|
+|    287|               51|        4038| 4.786823646508233|Included in that ...|        22|         1| 4.786823646508233|
+|    285|       accelerate|        3921| 4.771940128245011|and would put $93...|        19|         1| 4.771940128245011|
+|    102|            young|         307| 4.771193046658819|"We certainly bel...|        11|         1| 4.771193046658819|
+|    104|             term|         313| 4.769694428127595|On a call with re...|        15|         2|2.3848472140637975|
+|    104|             term|         313| 4.769694428127595|"We certainly bel...|        11|         2|2.3848472140637975|
+|    278|         withdraw|        3559| 4.763317198832891|Mr. Biden initial...|        34|         1| 4.763317198832891|
+|    282|           agenda|        3719| 4.754267363312973|What Biden admini...|        10|         1| 4.754267363312973|
+|    276|             dual|        3488| 4.741832485353727|Mr. Biden's propo...|         5|         1| 4.741832485353727|
+|    274|       prevention|        3410| 4.677695676132315|provides the most...|        18|         1| 4.677695676132315|
+|    279|        negotiate|        3651| 4.676305821843262|The budget propos...|        30|         1| 4.676305821843262|
+|    235|            obama|        1886| 4.664340653784988|The national debt...|        29|         1| 4.664340653784988|
+|    289|      exclusively|        4094| 4.656140152248667|Republicans want ...|        32|         1| 4.656140152248667|
+|    117|           future|         364|4.6357137537456765|Any comprehensive...|        38|         2|2.3178568768728383|
+|    117|           future|         364|4.6357137537456765|Republicans, who ...|        28|         2|2.3178568768728383|
+|    280|            blast|        3661| 4.623116178514345|Republicans, who ...|        28|         1| 4.623116178514345|
+|    122|           almost|         389| 4.604006355227963|And by 2031, inte...|         8|         2|2.3020031776139813|
+|    122|           almost|         389| 4.604006355227963|"The budget propo...|        36|         2|2.3020031776139813|
+|     80|          control|         227| 4.585732769659245|provides the most...|        18|         2|2.2928663848296225|
+|     80|          control|         227| 4.585732769659245|What Biden admini...|        10|         2|2.2928663848296225|
+|     72|             cost|         205|4.5777211677077325|And by 2031, inte...|         8|         2|2.2888605838538663|
+|     72|             cost|         205|4.5777211677077325|"The budget propo...|        36|         2|2.2888605838538663|
+|    281|      furthermore|        3696| 4.576376696182642|Furthermore, befo...|        37|         1| 4.576376696182642|
+|    264|          pacific|        2676| 4.500176235297228|Included in that ...|        22|         1| 4.500176235297228|
+|    267|         deadline|        2881| 4.433359643232872|Mr. Biden is send...|        33|         1| 4.433359643232872|
+|    263|        secretary|        2642| 4.421448295039524|Included in that ...|        22|         1| 4.421448295039524|
+|    253|            ratio|        2315| 4.415723771356684|Budget projection...|         7|         1| 4.415723771356684|
+|    270|               48|        3165|  4.38862374939148|Mr. Biden's propo...|         5|         1|  4.38862374939148|
+|    271|           barely|        3299| 4.342814213360186|The national debt...|        29|         1| 4.342814213360186|
+|     51|          product|         119| 4.339142485833205|Budget projection...|         7|         2|2.1695712429166023|
+|     51|          product|         119| 4.339142485833205|In his first budg...|         2|         2|2.1695712429166023|
+|    248|          climate|        2169| 4.276722173190273|Included in that ...|        22|         1| 4.276722173190273|
+|    266|       sufficient|        2757| 4.271149403350143|Mr. Biden initial...|        34|         1| 4.271149403350143|
+|      2|              say|           5| 4.269718125726594|What Biden admini...|        10|         4|1.0674295314316484|
+|      2|              say|           5| 4.269718125726594|" Mr. Biden has a...|        12|         4|1.0674295314316484|
+|      2|              say|           5| 4.269718125726594|"We certainly bel...|        11|         4|1.0674295314316484|
+|      2|              say|           5| 4.269718125726594|"The budget propo...|        36|         4|1.0674295314316484|
+|    249|            pitch|        2176| 4.264993643683911|Republicans propo...|        31|         1| 4.264993643683911|
+|    254|           tackle|        2343| 4.232391903360398|Included in that ...|        22|         1| 4.232391903360398|
+|    250|           crisis|        2188| 4.206591586319702|Mr. Biden's propo...|         5|         1| 4.206591586319702|
+|    262|           extent|        2586| 4.145677570781091|Despite campaigni...|         4|         1| 4.145677570781091|
+|    261|               33|        2544| 4.114575868215503|The national debt...|        29|         1| 4.114575868215503|
+|     83|             less|         238| 4.098851013302469|Republicans propo...|        31|         1| 4.098851013302469|
+|    258|          outline|        2459| 4.097821549603456|Mr. Biden has alr...|        27|         1| 4.097821549603456|
+|    233|            civil|        1787| 4.068151854116709|increases funds f...|        17|         1| 4.068151854116709|
+|    238|       percentage|        1931| 4.030075561071068|Budget projection...|         7|         1| 4.030075561071068|
+|    260|      potentially|        2515| 4.024752538582153|What Biden admini...|        10|         1| 4.024752538582153|
+|    251|             pace|        2193| 4.018498007728625|Included in that ...|        22|         1| 4.018498007728625|
+|    247|              era|        2154|4.0077644520855165|Budget projection...|         7|         1|4.0077644520855165|
+|    231|              net|        1722|3.9905936197708343|Despite campaigni...|         4|         1|3.9905936197708343|
+|    210|            china|        1337| 3.974859838468621|Included in that ...|        22|         1| 3.974859838468621|
+|    240|       transition|        1951|3.9643550604350652|Mr. Biden is send...|        33|         1|3.9643550604350652|
+|    234|            delay|        1803|3.9361337026384535|Mr. Biden is send...|        33|         1|3.9361337026384535|
+|    225|         argument|        1590|3.9317264676510457|The White House a...|         9|         1|3.9317264676510457|
+|    246|    consideration|        2135| 3.919488552679699|Mr. Biden initial...|        34|         1| 3.919488552679699|
+|    215|          defense|        1425|3.9179692903147667|Included in that ...|        22|         1|3.9179692903147667|
+|    221|          justice|        1526|3.9084721328103047|and would put $93...|        19|         1|3.9084721328103047|
+|    236|       assistance|        1889| 3.904398807422669|The president's p...|        16|         1| 3.904398807422669|
+|    245|    comprehensive|        2132|3.8807190540531535|Any comprehensive...|        38|         1|3.8807190540531535|
+|     59|         interest|         151|3.8195076048058203|The White House a...|         9|         2|1.9097538024029101|
+|     59|         interest|         151|3.8195076048058203|And by 2031, inte...|         8|         2|1.9097538024029101|
+|    241|           settle|        1967|3.8037347973254327|On a call with re...|        15|         1|3.8037347973254327|
+|    205|        committee|        1283|3.7994876866942433|"The budget propo...|        36|         1|3.7994876866942433|
+|    219|         mountain|        1486|3.7819199253571565|We should work to...|        39|         1|3.7819199253571565|
+|    242|            broad|        1968|3.7807848514554925|Despite campaigni...|         4|         1|3.7807848514554925|
+|    190|         military|        1098|3.7745648709838377|And by 2031, inte...|         8|         1|3.7745648709838377|
+|    244|          typical|        2008|3.7672635186939343|Mr. Biden is send...|        33|         1|3.7672635186939343|
+|    230|         priority|        1710| 3.764841533346036|A president's bud...|        25|         1| 3.764841533346036|
+|     63|            begin|         163| 3.753988058925454|The national debt...|        29|         2| 1.876994029462727|
+|     63|            begin|         163| 3.753988058925454|Budget projection...|         6|         2| 1.876994029462727|
+|    211|               ii|        1343|3.7511654746921237|Budget projection...|         7|         1|3.7511654746921237|
+|    239|          massive|        1943|3.7342390536541226|Republicans, who ...|        28|         1|3.7342390536541226|
+|    192|          disease|        1126|3.7147584983809856|provides the most...|        18|         1|3.7147584983809856|
+|     62|              top|         156|3.6990256526435035|" Mr. Biden has a...|        12|         2|1.8495128263217517|
+|     62|              top|         156|3.6990256526435035|The top corporate...|        13|         2|1.8495128263217517|
+|      8|              new|          12|3.6838331431241613|"The budget propo...|        36|         4|0.9209582857810403|
+|      8|              new|          12|3.6838331431241613|Furthermore, befo...|        37|         4|0.9209582857810403|
+|      8|              new|          12|3.6838331431241613|and would put $93...|        19|         4|0.9209582857810403|
+|      8|              new|          12|3.6838331431241613|Included in that ...|        22|         4|0.9209582857810403|
+|    178|             drug|         972| 3.673837393728054|The budget also c...|        20|         1| 3.673837393728054|
+|    229|              500|        1663|3.6615113617744934|The president's p...|        16|         1|3.6615113617744934|
+|    206|          economy|        1287|3.6596671161348246|We should work to...|        39|         1|3.6596671161348246|
+|    202|          finance|        1230|3.6315893013802842|Furthermore, befo...|        37|         1|3.6315893013802842|
+|    214|           invest|        1387|3.6015878533745878|Any comprehensive...|        38|         1|3.6015878533745878|
+|    227|       originally|        1621|3.5342084212354132|Republicans propo...|        31|         1|3.5342084212354132|
+|    217|        implement|        1436|3.5272879783908393|What Biden admini...|        10|         1|3.5272879783908393|
+|    209|         estimate|        1324|3.5261147857060484|It's not clear ho...|        14|         1|3.5261147857060484|
+|    191|             ball|        1102| 3.521581620086918|The ball is now i...|        26|         1| 3.521581620086918|
+|    222|               35|        1556|3.5056600216333926|The top corporate...|        13|         1|3.5056600216333926|
+|     19|          include|          35|3.4757234088125366|Included in that ...|        22|         2|1.7378617044062683|
+|     19|          include|          35|3.4757234088125366|In his first budg...|         2|         2|1.7378617044062683|
+|    218|            admit|        1461|3.4751146604792025|On a call with re...|        15|         1|3.4751146604792025|
+|    197|       protection|        1178| 3.467621910009429|and would put $93...|        19|         1| 3.467621910009429|
+|    200|           battle|        1218| 3.457854998336672|Mr. Biden's propo...|         5|         1| 3.457854998336672|
+|    188|       conference|        1080| 3.447640404926954|"We certainly bel...|        11|         1| 3.447640404926954|
+|     48|              big|         110|3.4453969491798833|The White House a...|         9|         2|1.7226984745899416|
+|     48|              big|         110|3.4453969491798833|President Biden o...|         1|         2|1.7226984745899416|
+|    168|       investment|         872| 3.407273798633025|Included in that ...|        22|         1| 3.407273798633025|
+|    216|          confirm|        1428|3.3964013125503114|Mr. Biden is send...|        33|         1|3.3964013125503114|
+|    213|               28|        1373| 3.394729178904542|" Mr. Biden has a...|        12|         1| 3.394729178904542|
+|    173|         campaign|         919|3.3874303437618956|Despite campaigni...|         4|         1|3.3874303437618956|
+|     35|              run|          70|  3.38237041776773|" Congress has un...|        40|         2| 1.691185208883865|
+|     35|              run|          70|  3.38237041776773|"We certainly bel...|        11|         2| 1.691185208883865|
+|    201|          express|        1226|3.3775280157990157|Budget hawks imme...|        35|         1|3.3775280157990157|
+|    207|               21|        1299| 3.371859423432894|" Mr. Biden has a...|        12|         1| 3.371859423432894|
+|    184|            grant|        1021|3.3331751222762085|The president's p...|        16|         1|3.3331751222762085|
+|    183|             edge|        1016| 3.322118646225874|Included in that ...|        22|         1| 3.322118646225874|
+|    171|           dollar|         907|3.2965140382109377|Furthermore, befo...|        37|         1|3.2965140382109377|
+|    199|           commit|        1207|3.2734821587721603|Furthermore, befo...|        37|         1|3.2734821587721603|
+|    204|            eight|        1280|3.2676929377676753|The national debt...|        29|         1|3.2676929377676753|
+|    166|           agency|         859|3.2665617159275864|and would put $93...|        19|         1|3.2665617159275864|
+|    203|           expand|        1236|3.2461939572233174|The budget also c...|        20|         1|3.2461939572233174|
+|    196|           assume|        1176|3.2453081194951436|Despite campaigni...|         4|         1|3.2453081194951436|
+|    177|        september|         971|3.2302586785436773|" Congress has un...|        40|         1|3.2302586785436773|
+|    193|      responsible|        1149|3.2233051520470863|"The budget propo...|        36|         1|3.2233051520470863|
+|    186|           annual|        1066|3.2212500975138743|It's not clear ho...|        14|         1|3.2212500975138743|
+|    155|          medical|         684|3.2154323694049824|It also requests ...|        23|         1|3.2154323694049824|
+|     13|             come|          23|3.2104620112793723|The budget propos...|        30|         3|1.0701540037597908|
+|     13|             come|          23|3.2104620112793723|Mr. Biden's propo...|         5|         3|1.0701540037597908|
+|     13|             come|          23|3.2104620112793723|On a call with re...|        15|         3|1.0701540037597908|
+|     33|            leave|          65|3.1952155330702037|We should work to...|        39|         2|1.5976077665351018|
+|     33|            leave|          65|3.1952155330702037|"The budget propo...|        36|         2|1.5976077665351018|
+|    164|           growth|         849| 3.187049652999853|It's not clear ho...|        14|         1| 3.187049652999853|
+|    163|           safety|         846|3.1796634035545055|Despite campaigni...|         4|         1|3.1796634035545055|
+|    144|              war|         536|3.1148528423087725|Budget projection...|         7|         1|3.1148528423087725|
+|    159|        statement|         760|3.0744894724666767|"The budget propo...|        36|         1|3.0744894724666767|
+|    172|         response|         917| 3.063171047527835|It also requests ...|        23|         1| 3.063171047527835|
+|    111|            court|         342|3.0536226826591406|The ball is now i...|        26|         1|3.0536226826591406|
+|    189|          despite|        1089|3.0497923086189065|Despite campaigni...|         4|         1|3.0497923086189065|
+|    187|      immediately|        1073| 3.048518770740965|Budget hawks imme...|        35|         1| 3.048518770740965|
+|    151|             bill|         632|3.0450701785220256|" Congress has un...|        40|         1|3.0450701785220256|
+|    175|               16|         952| 3.027113150849329|The president's b...|        21|         1| 3.027113150849329|
+|    185|            fully|        1036| 3.010872723296664|"We certainly bel...|        11|         1| 3.010872723296664|
+|    145|           policy|         567|2.9979120756451345|"We certainly bel...|        11|         1|2.9979120756451345|
+|      7|             also|          11| 2.994476393781688|It also requests ...|        23|         4| 0.748619098445422|
+|      7|             also|          11| 2.994476393781688|Republicans propo...|        31|         4| 0.748619098445422|
+|      7|             also|          11| 2.994476393781688|Republicans, who ...|        28|         4| 0.748619098445422|
+|      7|             also|          11| 2.994476393781688|The budget also c...|        20|         4| 0.748619098445422|
+|    179|        certainly|         977| 2.991451270124407|"We certainly bel...|        11|         1| 2.991451270124407|
+|    180|           beyond|         981| 2.966938783748542|Mr. Biden is send...|        33|         1| 2.966938783748542|
+|    154|          america|         681| 2.958345730413756|President Biden o...|         1|         1| 2.958345730413756|
+|     26|          provide|          51|  2.95360321212365|The president's p...|        16|         2| 1.476801606061825|
+|     26|          provide|          51|  2.95360321212365|provides the most...|        18|         2| 1.476801606061825|
+|    165|          concern|         856| 2.953539224102158|Budget hawks imme...|        35|         1| 2.953539224102158|
+|    167|               14|         861| 2.949578822886061|"The budget propo...|        36|         1| 2.949578822886061|
+|    162|           affect|         814|2.9101807665859942|It's not clear ho...|        14|         1|2.9101807665859942|
+|    174|           nearly|         933| 2.907966626823305|"The budget propo...|        36|         1| 2.907966626823305|
+|     24|             show|          45| 2.882530120243411|Budget projection...|         7|         2|1.4412650601217054|
+|     24|             show|          45| 2.882530120243411|Budget projection...|         6|         2|1.4412650601217054|
+|    157|          morning|         734|2.8810801446387204|"We certainly bel...|        11|         1|2.8810801446387204|
+|    128|        education|         444|2.8752532478332453|And by 2031, inte...|         8|         1|2.8752532478332453|
+|    150|       department|         620| 2.868624399604621|Included in that ...|        22|         1| 2.868624399604621|
+|    153|             rise|         680|2.8630959671817156|In his first budg...|         2|         1|2.8630959671817156|
+|    149|           united|         590|2.8541488754308357|Included in that ...|        22|         1|2.8541488754308357|
+|    161|         maintain|         796|2.8210934900361213|Included in that ...|        22|         1|2.8210934900361213|
+|    129|       management|         448| 2.785315697332917|"We certainly bel...|        11|         1| 2.785315697332917|
+|     23|             long|          43|2.7728388187212927|"We certainly bel...|        11|         1|2.7728388187212927|
+|      4|             like|           8|2.7458662643134626|Republicans want ...|        32|         3|0.9152887547711542|
+|      4|             like|           8|2.7458662643134626|The ball is now i...|        26|         3|0.9152887547711542|
+|      4|             like|           8|2.7458662643134626|It also requests ...|        23|         3|0.9152887547711542|
+|     21|             much|          39|2.6606812117073373|Mr. Biden has alr...|        27|         2|1.3303406058536686|
+|     21|             much|          39|2.6606812117073373|Republicans want ...|        32|         2|1.3303406058536686|
+|    136|             role|         499| 2.620284554371524|Despite campaigni...|         4|         1| 2.620284554371524|
+|    131|          picture|         465| 2.605290888212763|A president's bud...|        25|         1| 2.605290888212763|
+|    146|              100|         569|2.5846132426312067|Budget projection...|         7|         1|2.5846132426312067|
+|    105|           social|         319|2.5784015115877152|Despite campaigni...|         4|         1|2.5784015115877152|
+|    152|        currently|         658|   2.5753383745849|What Biden admini...|        10|         1|   2.5753383745849|
+|     87|           health|         248| 2.572566957975468|Mr. Biden's propo...|         5|         1| 2.572566957975468|
+|    137|              hit|         500|2.5623398515282263|"The budget propo...|        36|         1|2.5623398515282263|
+|    141|        challenge|         523| 2.560161870604165|Included in that ...|        22|         1| 2.560161870604165|
+|    125|         position|         411|    2.536620994663|Mr. Biden initial...|        34|         1|    2.536620994663|
+|    100|         research|         291|2.5358040234021795|It also requests ...|        23|         1|2.5358040234021795|
+|    135|          improve|         494| 2.524328310153643|"We certainly bel...|        11|         1| 2.524328310153643|
+|    112|            sound|         345|2.5074108642314337|We should work to...|        39|         1|2.5074108642314337|
+|    142|               15|         524|2.4942157720090727|"We certainly bel...|        11|         1|2.4942157720090727|
+|    123|             pass|         407| 2.492754546407252|" Congress has un...|        40|         1| 2.492754546407252|
+|    109|           center|         335|2.4770770813448757|provides the most...|        18|         1|2.4770770813448757|
+|     68|             test|         193|2.4562975087709797|It also requests ...|        23|         1|2.4562975087709797|
+|    134|           strong|         493|2.4526336737105896|We should work to...|        39|         1|2.4526336737105896|
+|     18|             even|          32|2.4154477143636117|Despite campaigni...|         4|         2|1.2077238571818059|
+|     18|             even|          32|2.4154477143636117|In his first budg...|         2|         2|1.2077238571818059|
+|    130|         although|         454| 2.396335640245231|On a call with re...|        15|         1| 2.396335640245231|
+|    127|            short|         428|2.3852217985135584|On a call with re...|        15|         1|2.3852217985135584|
+|    121|               12|         385| 2.376595226632646|" Congress has un...|        40|         1| 2.376595226632646|
+|     81|             word|         230| 2.376409525610757|Despite campaigni...|         4|         1| 2.376409525610757|
+|     93|           public|         264|2.3216730894218105|In fiscal year 20...|         3|         1|2.3216730894218105|
+|     66|          project|         185| 2.319258848624926|Republicans, who ...|        28|         1| 2.319258848624926|
+|    114|      opportunity|         357| 2.306018813744783|What Biden admini...|        10|         1| 2.306018813744783|
+|     94|             send|         266| 2.285463985674759|Mr. Biden is send...|        33|         1| 2.285463985674759|
+|    106|            focus|         323| 2.263331213169949|Republicans want ...|        32|         1| 2.263331213169949|
+|    103|            break|         310|2.2508068456104886|"The budget propo...|        36|         1|2.2508068456104886|
+|     97|             real|         278|2.2505612258286742|It's not clear ho...|        14|         1|2.2505612258286742|
+|     74|          country|         209| 2.250479365972702|In his first budg...|         2|         1| 2.250479365972702|
+|     40|            child|          78| 2.206520643448665|We should work to...|        39|         1| 2.206520643448665|
+|     92|          believe|         260| 2.200974187545583|"We certainly bel...|        11|         1| 2.200974187545583|
+|     84|             grow|         241| 2.193252740704584|The national debt...|        29|         1| 2.193252740704584|
+|    107|           across|         329| 2.187125908059873|increases funds f...|        17|         1| 2.187125908059873|
+|     99|             four|         285| 2.165427642608231|The national debt...|        29|         1| 2.165427642608231|
+|     67|           member|         190| 2.150947616509422|The ball is now i...|        26|         1| 2.150947616509422|
+|     95|              far|         275|2.1214859423349073|Republicans propo...|        31|         1|2.1214859423349073|
+|     75|              low|         210|2.1178590418692917|The White House a...|         9|         1|2.1178590418692917|
+|     82|             note|         231|2.1017517406190582|"We certainly bel...|        11|         1|2.1017517406190582|
+|     90|             ever|         255|2.0966503169920294|provides the most...|        18|         1|2.0966503169920294|
+|     76|             idea|         215|2.0804294176329243|The ball is now i...|        26|         1|2.0804294176329243|
+|     10|             need|          18| 2.068371219014749|Furthermore, befo...|        37|         2|1.0341856095073745|
+|     10|             need|          18| 2.068371219014749|The White House a...|         9|         2|1.0341856095073745|
+|     78|                4|         218| 2.056277609236605|In his first budg...|         2|         1| 2.056277609236605|
+|     85|             hard|         242|2.0561428020107333|Republicans want ...|        32|         1|2.0561428020107333|
+|     71|                5|         200|   2.0210770476907|"The budget propo...|        36|         1|   2.0210770476907|
+|     79|           within|         221|2.0042666755482257|"We certainly bel...|        11|         1|2.0042666755482257|
+|     70|               10|         197|1.9766238704115682|It's not clear ho...|        14|         1|1.9766238704115682|
+|     56|             must|         133|1.9483319647003972|Any comprehensive...|        38|         1|1.9483319647003972|
+|     52|             case|         120| 1.924297807303501|President Biden o...|         1|         1| 1.924297807303501|
+|     65|             hold|         179| 1.921878712988701|In fiscal year 20...|         3|         1| 1.921878712988701|
+|      9|             well|          15|1.8460144227086654|Mr. Biden is send...|        33|         2|0.9230072113543327|
+|      9|             well|          15|1.8460144227086654|The White House a...|         9|         2|0.9230072113543327|
+|     54|            month|         127|1.8338758226821215|The ball is now i...|        26|         1|1.8338758226821215|
+|     60|            large|         153|1.8287889447117012|President Biden o...|         1|         1|1.8287889447117012|
+|     64|            bring|         169| 1.826750700114081|Mr. Biden's propo...|         5|         1| 1.826750700114081|
+|     44|          support|          96|1.8266971181604703|Mr. Biden initial...|        34|         1|1.8266971181604703|
+|     55|                3|         129| 1.812466072951617|The national debt...|        29|         1| 1.812466072951617|
+|     27|            state|          54|1.7488474322779444|Included in that ...|        22|         1|1.7488474322779444|
+|     42|             week|          89|1.7346729202821365|The ball is now i...|        26|         1|1.7346729202821365|
+|     53|             sure|         124|1.7299194223924255|Republicans, who ...|        28|         1|1.7299194223924255|
+|     57|          without|         139|1.7286556298750222|It's not clear ho...|        14|         1|1.7286556298750222|
+|     50|              put|         113| 1.686354112493035|and would put $93...|        19|         1| 1.686354112493035|
+|     36|                1|          72|1.6754708484930414|Republicans propo...|        31|         1|1.6754708484930414|
+|     43|            offer|          91| 1.657236868110035|Republicans propo...|        31|         1| 1.657236868110035|
+|     37|                2|          75|1.6535124690190526|It's not clear ho...|        14|         1|1.6535124690190526|
+|     46|           become|         104|1.6457919827048701|Mr. Biden initial...|        34|         1|1.6457919827048701|
+|     39|              add|          77|1.6408187897294382|Budget hawks imme...|        35|         1|1.6408187897294382|
+|     30|            world|          58|1.6168600201426304|Budget projection...|         7|         1|1.6168600201426304|
+|     34|             mean|          68|1.6162520645915097|Included in that ...|        22|         1|1.6162520645915097|
+|     45|            since|         100| 1.593907524136944|The national debt...|        29|         1| 1.593907524136944|
+|     38|              end|          76|1.5883404885389452|" Congress has un...|        40|         1|1.5883404885389452|
+|     25|           change|          50|1.5674515642376798|Included in that ...|        22|         1|1.5674515642376798|
+|     41|            every|          79|1.5470103274675666|"The budget propo...|        36|         1|1.5470103274675666|
+|     31|            still|          60|1.4961323259940988|Mr. Biden is send...|        33|         1|1.4961323259940988|
+|      3|             time|           6|1.4946146961457287|The White House a...|         9|         2|0.7473073480728644|
+|      3|             time|           6|1.4946146961457287|President Biden o...|         1|         2|0.7473073480728644|
+|     28|             high|          55|1.4875456208796844|"The budget propo...|        36|         1|1.4875456208796844|
+|     29|             last|          56|1.4349982942331543|Mr. Biden's propo...|         5|         1|1.4349982942331543|
+|     22|            right|          42|  1.40357332418435|increases funds f...|        17|         1|  1.40357332418435|
+|     20|             back|          37|1.3243732540159072|Furthermore, befo...|        37|         1|1.3243732540159072|
+|     15|               we|          29|1.2840370709254076|Mr. Biden's propo...|         5|         1|1.2840370709254076|
+|      1|             make|           3|1.2595524100531712|President Biden o...|         1|         2|0.6297762050265856|
+|      1|             make|           3|1.2595524100531712|" Mr. Biden has a...|        12|         2|0.6297762050265856|
+|     17|             give|          31| 1.174788384101122|A president's bud...|        25|         1| 1.174788384101122|
+|     16|              two|          30|  1.16067806918374|It's not clear ho...|        14|         1|  1.16067806918374|
+|     11|             look|          20|1.0927097258700422|The ball is now i...|        26|         1|1.0927097258700422|
+|     12|            first|          21| 1.055786998646283|In his first budg...|         2|         1| 1.055786998646283|
+|      6|             work|          10|0.9295943125239217|We should work to...|        39|         1|0.9295943125239217|
+|      0|              one|           1|0.6155276184381002|The national debt...|        29|         1|0.6155276184381002|
++-------+-----------------+------------+------------------+--------------------+----------+----------+------------------+
+
+************* Lemmas: *************
++-------+-----------------+------------------+------------------+
+|lemmaId|lemma            |tfIdf             |idf               |
++-------+-----------------+------------------+------------------+
+|331    |biden            |112.64973354094322|8.046409538638802 |
+|182    |budget           |91.82476326363579 |4.59123816318179  |
+|313    |trillion         |84.16867065320449 |7.6516973321094985|
+|208    |debt             |42.18822373614765 |4.687580415127517 |
+|148    |mr               |37.59658251022339 |3.4178711372930355|
+|329    |2022             |34.20370288178245 |6.84074057635649  |
+|143    |president        |29.0378895157135  |3.226432168412611 |
+|257    |proposal         |26.398782299937636|5.279756459987527 |
+|346    |2031             |25.921791767451495|8.640597255817164 |
+|340    |pandemic         |23.15832100287551 |7.7194403342918365|
+|243    |republican       |22.97704389181905 |5.744260972954763 |
+|47     |plan             |22.592412788619527|2.824051598577441 |
+|255    |congress         |22.469921325246535|4.493984265049307 |
+|256    |infrastructure   |21.436670040520678|5.3591675101301695|
+|89     |spend            |21.419478508369515|2.1419478508369516|
+|292    |fiscal           |20.826440205328073|5.206610051332018 |
+|86     |increase         |20.15321844422966 |2.5191523055287073|
+|269    |democrat         |19.95595678600184 |6.651985595333946 |
+|317    |gdp              |18.721461428067723|6.240487142689241 |
+|96     |american         |17.49102053316731 |4.372755133291827 |
+|118    |tax              |16.66044050002999 |5.553480166676663 |
+|232    |propose          |15.651974470116603|5.217324823372201 |
+|110    |white            |15.6044947874998  |2.6007491312499664|
+|58     |house            |15.227011680109051|2.537835280018175 |
+|336    |trillions        |14.768712045890943|7.384356022945472 |
+|323    |pentagon         |13.267715091828121|6.6338575459140605|
+|272    |roughly          |13.18363205227007 |6.591816026135035 |
+|265    |reporter         |13.144075615200205|4.381358538400068 |
+|98     |already          |12.471813428535746|2.0786355714226246|
+|169    |friday           |12.345637838711212|3.086409459677803 |
+|140    |fund             |11.888251630763406|2.9720629076908516|
+|223    |billion          |11.682544814628042|3.894181604876014 |
+|237    |initiative       |11.587497265008961|3.8624990883363206|
+|73     |job              |11.236256249905772|2.2472512499811543|
+|220    |administration   |11.212478557860853|3.7374928526202846|
+|5      |year             |10.998593635996908|1.222065959555212 |
+|351    |tanden           |10.967874961401582|10.967874961401582|
+|108    |government       |10.93748728467035 |2.7343718211675876|
+|350    |neera            |10.744731410087372|10.744731410087372|
+|302    |deficit          |10.713146679079092|5.356573339539546 |
+|290    |projection       |10.630771562265862|5.315385781132931 |
+|176    |federal          |10.318226385372633|3.4394087951242107|
+|291    |outlook          |10.190106388848744|5.095053194424372 |
+|88     |rate             |10.000328481121885|3.333442827040628 |
+|273    |senate           |9.999613984199991 |4.9998069920999955|
+|349    |onceinageneration|9.9562740497231   |9.9562740497231   |
+|348    |debttogdp        |9.9562740497231   |9.9562740497231   |
+|49     |family           |9.668823682915184 |1.9337647365830368|
+|347    |hopedfor         |9.463797564625308 |9.463797564625308 |
+|115    |6                |9.438431292343891 |2.3596078230859727|
+|275    |gross            |9.426170146693115 |4.713085073346558 |
+|345    |omb              |9.309646884798049 |9.309646884798049 |
+|156    |request          |9.073607833071918 |3.024535944357306 |
+|158    |official         |8.787362634156544 |2.9291208780521814|
+|195    |trump            |8.61204044171254  |4.30602022085627  |
+|252    |domestic         |8.470732651082875 |4.235366325541437 |
+|132    |million          |8.29227597302957  |2.7640919910098565|
+|343    |deterrence       |8.120062817924213 |8.120062817924213 |
+|228    |environmental    |8.045647795351496 |8.045647795351496 |
+|344    |936              |8.02343598223514  |8.02343598223514  |
+|259    |initially        |7.955236921815402 |3.977618460907701 |
+|339    |914              |7.789821131053636 |7.789821131053636 |
+|342    |what             |7.789821131053636 |7.789821131053636 |
+|32     |call             |7.780729849571092 |1.5561459699142184|
+|341    |617              |7.6907302284094055|7.6907302284094055|
+|226    |tag              |7.6771548249444175|3.8385774124722087|
+|212    |bridge           |7.660001034737619 |3.8300005173688096|
+|224    |corporate        |7.593588682944806 |3.796794341472403 |
+|337    |263              |7.297923517173165 |7.297923517173165 |
+|338    |everincreasing   |7.278995507287646 |7.278995507287646 |
+|101    |national         |7.276358147818705 |2.4254527159395685|
+|334    |715              |7.230205343118214 |7.230205343118214 |
+|328    |predicate        |7.224270607598399 |7.224270607598399 |
+|333    |transformational |7.20667484570802  |7.20667484570802  |
+|124    |clear            |7.184464261466167 |2.3948214204887224|
+|198    |economic         |7.180857204024018 |3.590428602012009 |
+|69     |price            |7.116305009587461 |2.372101669862487 |
+|335    |balk             |7.107145250360986 |7.107145250360986 |
+|332    |unsustainable    |7.045901625120267 |7.045901625120267 |
+|113    |expect           |6.814470318600952 |3.407235159300476 |
+|326    |discretionary    |6.793487691505945 |6.793487691505945 |
+|324    |appropriation    |6.778220219375156 |6.778220219375156 |
+|330    |threequarter     |6.691208842385526 |6.691208842385526 |
+|327    |235              |6.588978219736628 |6.588978219736628 |
+|170    |package          |6.517357584448463 |6.517357584448463 |
+|325    |400000           |6.37528355762035  |6.37528355762035  |
+|61     |pay              |6.329478889963131 |2.109826296654377 |
+|194    |ahead            |6.272118426561858 |3.136059213280929 |
+|321    |moderation       |6.258344760089248 |6.258344760089248 |
+|314    |maya             |6.256095040355232 |6.256095040355232 |
+|322    |dont             |6.222942833038331 |6.222942833038331 |
+|315    |lloyd            |6.127632653234007 |6.127632653234007 |
+|181    |lack             |6.08760527295633  |3.043802636478165 |
+|320    |117              |6.071902575625466 |6.071902575625466 |
+|318    |blueprint        |6.046070881011942 |6.046070881011942 |
+|319    |expansive        |5.9774423746228456|5.9774423746228456|
+|301    |medicare         |5.9180189541520445|5.9180189541520445|
+|77     |continue         |5.895152654561729 |2.9475763272808644|
+|297    |eclipse          |5.881823028020571 |5.881823028020571 |
+|304    |hawk             |5.813139323331569 |5.813139323331569 |
+|160    |former           |5.721514981302383 |2.8607574906511917|
+|316    |outright         |5.714293488694937 |5.714293488694937 |
+|311    |enact            |5.683403001675598 |5.683403001675598 |
+|308    |barack           |5.617202364519617 |5.617202364519617 |
+|147    |director         |5.613142616300482 |2.806571308150241 |
+|138    |road             |5.545082588477423 |2.7725412942387115|
+|309    |87               |5.509353843313209 |5.509353843313209 |
+|296    |homeless         |5.500870229335394 |5.500870229335394 |
+|312    |surpass          |5.481005488308954 |5.481005488308954 |
+|310    |steadily         |5.456464379392837 |5.456464379392837 |
+|306    |urgent           |5.436463712686167 |5.436463712686167 |
+|295    |inflation        |5.427592289298747 |5.427592289298747 |
+|307    |82               |5.420746296790758 |5.420746296790758 |
+|305    |74               |5.406232253906503 |5.406232253906503 |
+|139    |address          |5.399312162668151 |2.6996560813340755|
+|286    |massage          |5.3049144812656355|5.3049144812656355|
+|126    |activity         |5.222640231896314 |2.611320115948157 |
+|288    |tunnel           |5.216890885261087 |5.216890885261087 |
+|300    |enhancement      |5.201117687583992 |5.201117687583992 |
+|283    |prescription     |5.12360616911218  |5.12360616911218  |
+|293    |nominate         |5.116391130598029 |5.116391130598029 |
+|303    |historically     |5.099284512444134 |5.099284512444134 |
+|116    |cut              |5.093944860607261 |2.5469724303036303|
+|119    |office           |5.088776472851305 |2.5443882364256525|
+|299    |unveil           |4.999167401416216 |4.999167401416216 |
+|298    |weve             |4.973290286957356 |4.973290286957356 |
+|268    |austin           |4.964605368843837 |4.964605368843837 |
+|284    |offset           |4.9228696473655695|4.9228696473655695|
+|294    |socalled         |4.8828062343343746|4.8828062343343746|
+|277    |deputy           |4.877696941357567 |4.877696941357567 |
+|91     |record           |4.8538328328701645|2.4269164164350823|
+|120    |current          |4.84632776789721  |2.423163883948605 |
+|14     |want             |4.826108704106305 |1.6087029013687684|
+|133    |reach            |4.814765691180393 |2.4073828455901967|
+|287    |51               |4.786823646508233 |4.786823646508233 |
+|285    |accelerate       |4.771940128245011 |4.771940128245011 |
+|102    |young            |4.771193046658819 |4.771193046658819 |
+|104    |term             |4.769694428127595 |2.3848472140637975|
+|278    |withdraw         |4.763317198832891 |4.763317198832891 |
+|282    |agenda           |4.754267363312973 |4.754267363312973 |
+|276    |dual             |4.741832485353727 |4.741832485353727 |
+|274    |prevention       |4.677695676132315 |4.677695676132315 |
+|279    |negotiate        |4.676305821843262 |4.676305821843262 |
+|235    |obama            |4.664340653784988 |4.664340653784988 |
+|289    |exclusively      |4.656140152248667 |4.656140152248667 |
+|117    |future           |4.6357137537456765|2.3178568768728383|
+|280    |blast            |4.623116178514345 |4.623116178514345 |
+|122    |almost           |4.604006355227963 |2.3020031776139813|
+|80     |control          |4.585732769659245 |2.2928663848296225|
+|72     |cost             |4.5777211677077325|2.2888605838538663|
+|281    |furthermore      |4.576376696182642 |4.576376696182642 |
+|264    |pacific          |4.500176235297228 |4.500176235297228 |
+|267    |deadline         |4.433359643232872 |4.433359643232872 |
+|263    |secretary        |4.421448295039524 |4.421448295039524 |
+|253    |ratio            |4.415723771356684 |4.415723771356684 |
+|270    |48               |4.38862374939148  |4.38862374939148  |
+|271    |barely           |4.342814213360186 |4.342814213360186 |
+|51     |product          |4.339142485833205 |2.1695712429166023|
+|248    |climate          |4.276722173190273 |4.276722173190273 |
+|266    |sufficient       |4.271149403350143 |4.271149403350143 |
+|2      |say              |4.269718125726594 |1.0674295314316484|
+|249    |pitch            |4.264993643683911 |4.264993643683911 |
+|254    |tackle           |4.232391903360398 |4.232391903360398 |
+|250    |crisis           |4.206591586319702 |4.206591586319702 |
+|262    |extent           |4.145677570781091 |4.145677570781091 |
+|261    |33               |4.114575868215503 |4.114575868215503 |
+|83     |less             |4.098851013302469 |4.098851013302469 |
+|258    |outline          |4.097821549603456 |4.097821549603456 |
+|233    |civil            |4.068151854116709 |4.068151854116709 |
+|238    |percentage       |4.030075561071068 |4.030075561071068 |
+|260    |potentially      |4.024752538582153 |4.024752538582153 |
+|251    |pace             |4.018498007728625 |4.018498007728625 |
+|247    |era              |4.0077644520855165|4.0077644520855165|
+|231    |net              |3.9905936197708343|3.9905936197708343|
+|210    |china            |3.974859838468621 |3.974859838468621 |
+|240    |transition       |3.9643550604350652|3.9643550604350652|
+|234    |delay            |3.9361337026384535|3.9361337026384535|
+|225    |argument         |3.9317264676510457|3.9317264676510457|
+|246    |consideration    |3.919488552679699 |3.919488552679699 |
+|215    |defense          |3.9179692903147667|3.9179692903147667|
+|221    |justice          |3.9084721328103047|3.9084721328103047|
+|236    |assistance       |3.904398807422669 |3.904398807422669 |
+|245    |comprehensive    |3.8807190540531535|3.8807190540531535|
+|59     |interest         |3.8195076048058203|1.9097538024029101|
+|241    |settle           |3.8037347973254327|3.8037347973254327|
+|205    |committee        |3.7994876866942433|3.7994876866942433|
+|219    |mountain         |3.7819199253571565|3.7819199253571565|
+|242    |broad            |3.7807848514554925|3.7807848514554925|
+|190    |military         |3.7745648709838377|3.7745648709838377|
+|244    |typical          |3.7672635186939343|3.7672635186939343|
+|230    |priority         |3.764841533346036 |3.764841533346036 |
+|63     |begin            |3.753988058925454 |1.876994029462727 |
+|211    |ii               |3.7511654746921237|3.7511654746921237|
+|239    |massive          |3.7342390536541226|3.7342390536541226|
+|192    |disease          |3.7147584983809856|3.7147584983809856|
+|62     |top              |3.6990256526435035|1.8495128263217517|
+|8      |new              |3.6838331431241613|0.9209582857810403|
+|178    |drug             |3.673837393728054 |3.673837393728054 |
+|229    |500              |3.6615113617744934|3.6615113617744934|
+|206    |economy          |3.6596671161348246|3.6596671161348246|
+|202    |finance          |3.6315893013802842|3.6315893013802842|
+|214    |invest           |3.6015878533745878|3.6015878533745878|
+|227    |originally       |3.5342084212354132|3.5342084212354132|
+|217    |implement        |3.5272879783908393|3.5272879783908393|
+|209    |estimate         |3.5261147857060484|3.5261147857060484|
+|191    |ball             |3.521581620086918 |3.521581620086918 |
+|222    |35               |3.5056600216333926|3.5056600216333926|
+|19     |include          |3.4757234088125366|1.7378617044062683|
+|218    |admit            |3.4751146604792025|3.4751146604792025|
+|197    |protection       |3.467621910009429 |3.467621910009429 |
+|200    |battle           |3.457854998336672 |3.457854998336672 |
+|188    |conference       |3.447640404926954 |3.447640404926954 |
+|48     |big              |3.4453969491798833|1.7226984745899416|
+|168    |investment       |3.407273798633025 |3.407273798633025 |
+|216    |confirm          |3.3964013125503114|3.3964013125503114|
+|213    |28               |3.394729178904542 |3.394729178904542 |
+|173    |campaign         |3.3874303437618956|3.3874303437618956|
+|35     |run              |3.38237041776773  |1.691185208883865 |
+|201    |express          |3.3775280157990157|3.3775280157990157|
+|207    |21               |3.371859423432894 |3.371859423432894 |
+|184    |grant            |3.3331751222762085|3.3331751222762085|
+|183    |edge             |3.322118646225874 |3.322118646225874 |
+|171    |dollar           |3.2965140382109377|3.2965140382109377|
+|199    |commit           |3.2734821587721603|3.2734821587721603|
+|204    |eight            |3.2676929377676753|3.2676929377676753|
+|166    |agency           |3.2665617159275864|3.2665617159275864|
+|203    |expand           |3.2461939572233174|3.2461939572233174|
+|196    |assume           |3.2453081194951436|3.2453081194951436|
+|177    |september        |3.2302586785436773|3.2302586785436773|
+|193    |responsible      |3.2233051520470863|3.2233051520470863|
+|186    |annual           |3.2212500975138743|3.2212500975138743|
+|155    |medical          |3.2154323694049824|3.2154323694049824|
+|13     |come             |3.2104620112793723|1.0701540037597908|
+|33     |leave            |3.1952155330702037|1.5976077665351018|
+|164    |growth           |3.187049652999853 |3.187049652999853 |
+|163    |safety           |3.1796634035545055|3.1796634035545055|
+|144    |war              |3.1148528423087725|3.1148528423087725|
+|159    |statement        |3.0744894724666767|3.0744894724666767|
+|172    |response         |3.063171047527835 |3.063171047527835 |
+|111    |court            |3.0536226826591406|3.0536226826591406|
+|189    |despite          |3.0497923086189065|3.0497923086189065|
+|187    |immediately      |3.048518770740965 |3.048518770740965 |
+|151    |bill             |3.0450701785220256|3.0450701785220256|
+|175    |16               |3.027113150849329 |3.027113150849329 |
+|185    |fully            |3.010872723296664 |3.010872723296664 |
+|145    |policy           |2.9979120756451345|2.9979120756451345|
+|7      |also             |2.994476393781688 |0.748619098445422 |
+|179    |certainly        |2.991451270124407 |2.991451270124407 |
+|180    |beyond           |2.966938783748542 |2.966938783748542 |
+|154    |america          |2.958345730413756 |2.958345730413756 |
+|26     |provide          |2.95360321212365  |1.476801606061825 |
+|165    |concern          |2.953539224102158 |2.953539224102158 |
+|167    |14               |2.949578822886061 |2.949578822886061 |
+|162    |affect           |2.9101807665859942|2.9101807665859942|
+|174    |nearly           |2.907966626823305 |2.907966626823305 |
+|24     |show             |2.882530120243411 |1.4412650601217054|
+|157    |morning          |2.8810801446387204|2.8810801446387204|
+|128    |education        |2.8752532478332453|2.8752532478332453|
+|150    |department       |2.868624399604621 |2.868624399604621 |
+|153    |rise             |2.8630959671817156|2.8630959671817156|
+|149    |united           |2.8541488754308357|2.8541488754308357|
+|161    |maintain         |2.8210934900361213|2.8210934900361213|
+|129    |management       |2.785315697332917 |2.785315697332917 |
+|23     |long             |2.7728388187212927|2.7728388187212927|
+|4      |like             |2.7458662643134626|0.9152887547711542|
+|21     |much             |2.6606812117073373|1.3303406058536686|
+|136    |role             |2.620284554371524 |2.620284554371524 |
+|131    |picture          |2.605290888212763 |2.605290888212763 |
+|146    |100              |2.5846132426312067|2.5846132426312067|
+|105    |social           |2.5784015115877152|2.5784015115877152|
+|152    |currently        |2.5753383745849   |2.5753383745849   |
+|87     |health           |2.572566957975468 |2.572566957975468 |
+|137    |hit              |2.5623398515282263|2.5623398515282263|
+|141    |challenge        |2.560161870604165 |2.560161870604165 |
+|125    |position         |2.536620994663    |2.536620994663    |
+|100    |research         |2.5358040234021795|2.5358040234021795|
+|135    |improve          |2.524328310153643 |2.524328310153643 |
+|112    |sound            |2.5074108642314337|2.5074108642314337|
+|142    |15               |2.4942157720090727|2.4942157720090727|
+|123    |pass             |2.492754546407252 |2.492754546407252 |
+|109    |center           |2.4770770813448757|2.4770770813448757|
+|68     |test             |2.4562975087709797|2.4562975087709797|
+|134    |strong           |2.4526336737105896|2.4526336737105896|
+|18     |even             |2.4154477143636117|1.2077238571818059|
+|130    |although         |2.396335640245231 |2.396335640245231 |
+|127    |short            |2.3852217985135584|2.3852217985135584|
+|121    |12               |2.376595226632646 |2.376595226632646 |
+|81     |word             |2.376409525610757 |2.376409525610757 |
+|93     |public           |2.3216730894218105|2.3216730894218105|
+|66     |project          |2.319258848624926 |2.319258848624926 |
+|114    |opportunity      |2.306018813744783 |2.306018813744783 |
+|94     |send             |2.285463985674759 |2.285463985674759 |
+|106    |focus            |2.263331213169949 |2.263331213169949 |
+|103    |break            |2.2508068456104886|2.2508068456104886|
+|97     |real             |2.2505612258286742|2.2505612258286742|
+|74     |country          |2.250479365972702 |2.250479365972702 |
+|40     |child            |2.206520643448665 |2.206520643448665 |
+|92     |believe          |2.200974187545583 |2.200974187545583 |
+|84     |grow             |2.193252740704584 |2.193252740704584 |
+|107    |across           |2.187125908059873 |2.187125908059873 |
+|99     |four             |2.165427642608231 |2.165427642608231 |
+|67     |member           |2.150947616509422 |2.150947616509422 |
+|95     |far              |2.1214859423349073|2.1214859423349073|
+|75     |low              |2.1178590418692917|2.1178590418692917|
+|82     |note             |2.1017517406190582|2.1017517406190582|
+|90     |ever             |2.0966503169920294|2.0966503169920294|
+|76     |idea             |2.0804294176329243|2.0804294176329243|
+|10     |need             |2.068371219014749 |1.0341856095073745|
+|78     |4                |2.056277609236605 |2.056277609236605 |
+|85     |hard             |2.0561428020107333|2.0561428020107333|
+|71     |5                |2.0210770476907   |2.0210770476907   |
+|79     |within           |2.0042666755482257|2.0042666755482257|
+|70     |10               |1.9766238704115682|1.9766238704115682|
+|56     |must             |1.9483319647003972|1.9483319647003972|
+|52     |case             |1.924297807303501 |1.924297807303501 |
+|65     |hold             |1.921878712988701 |1.921878712988701 |
+|9      |well             |1.8460144227086654|0.9230072113543327|
+|54     |month            |1.8338758226821215|1.8338758226821215|
+|60     |large            |1.8287889447117012|1.8287889447117012|
+|64     |bring            |1.826750700114081 |1.826750700114081 |
+|44     |support          |1.8266971181604703|1.8266971181604703|
+|55     |3                |1.812466072951617 |1.812466072951617 |
+|27     |state            |1.7488474322779444|1.7488474322779444|
+|42     |week             |1.7346729202821365|1.7346729202821365|
+|53     |sure             |1.7299194223924255|1.7299194223924255|
+|57     |without          |1.7286556298750222|1.7286556298750222|
+|50     |put              |1.686354112493035 |1.686354112493035 |
+|36     |1                |1.6754708484930414|1.6754708484930414|
+|43     |offer            |1.657236868110035 |1.657236868110035 |
+|37     |2                |1.6535124690190526|1.6535124690190526|
+|46     |become           |1.6457919827048701|1.6457919827048701|
+|39     |add              |1.6408187897294382|1.6408187897294382|
+|30     |world            |1.6168600201426304|1.6168600201426304|
+|34     |mean             |1.6162520645915097|1.6162520645915097|
+|45     |since            |1.593907524136944 |1.593907524136944 |
+|38     |end              |1.5883404885389452|1.5883404885389452|
+|25     |change           |1.5674515642376798|1.5674515642376798|
+|41     |every            |1.5470103274675666|1.5470103274675666|
+|31     |still            |1.4961323259940988|1.4961323259940988|
+|3      |time             |1.4946146961457287|0.7473073480728644|
+|28     |high             |1.4875456208796844|1.4875456208796844|
+|29     |last             |1.4349982942331543|1.4349982942331543|
+|22     |right            |1.40357332418435  |1.40357332418435  |
+|20     |back             |1.3243732540159072|1.3243732540159072|
+|15     |we               |1.2840370709254076|1.2840370709254076|
+|1      |make             |1.2595524100531712|0.6297762050265856|
+|17     |give             |1.174788384101122 |1.174788384101122 |
+|16     |two              |1.16067806918374  |1.16067806918374  |
+|11     |look             |1.0927097258700422|1.0927097258700422|
+|12     |first            |1.055786998646283 |1.055786998646283 |
+|6      |work             |0.9295943125239217|0.9295943125239217|
+|0      |one              |0.6155276184381002|0.6155276184381002|
++-------+-----------------+------------------+------------------+
+
+************* Sentences: *************
++----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|sentenceId|sentenceText                                                                                                                                                                                                                                                                                                                                                                               |
++----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|0         |What's in Biden's record $6 trillion budget for 2022.                                                                                                                                                                                                                                                                                                                                      |
+|1         |President Biden on Friday unveiled an historically large $6 trillion 2022 budget, making his case to Congress that now is the time for America to spend big.                                                                                                                                                                                                                               |
+|2         |In his first budget proposal, which includes roughly $4 trillion in hoped-for infrastructure and families plan spending in the years ahead, there would be continued deficits and the national debt would continue to rise, even as it eclipses the country's Gross Domestic Product, or GDP.                                                                                              |
+|3         |In fiscal year 2022, the debt held by the public is expected to be $26.3 trillion, while GDP is expected to be $23.5 trillion.                                                                                                                                                                                                                                                             |
+|4         |Despite campaigning to an extent on moderation, Mr. Biden's budget is, even in the words of White House officials on a call with reporters Friday, "transformational" and assumes a broader role for the federal government in the social safety net.                                                                                                                                      |
+|5         |Mr. Biden's proposed budget for fiscal year 2022 surpasses former President Trump's proposed budget last year of $4.8 trillion, and comes after trillions the U.S. has already spent to battle the dual health and economic crises brought about by the COVID-19 pandemic.                                                                                                                 |
+|6         |Budget projections show a $6 trillion price tag is just the beginning, with spending steadily increasing each year until the budget reaches $8.2 trillion in 2031.                                                                                                                                                                                                                         |
+|7         |Budget projections show debt as a percentage of Gross Domestic Product has already reached 100%, and will increase to 117% by 2031, more than the debt-to-GDP ratio of the World War II era.                                                                                                                                                                                               |
+|8         |And by 2031, interest on the debt all by itself would cost almost $914 trillion — more than the federal government spends now on the military or education.                                                                                                                                                                                                                                |
+|9         |The White House argument that now is the time to spend big is predicated on low interest rates and the urgent need for better roads, bridges and jobs.                                                                                                                                                                                                                                     |
+|10        |What Biden administration officials don't say outright is that Democrats currently control the White House, Senate and the House, a potentially once-in-a-generation opportunity for Democrats to implement their agenda.                                                                                                                                                                  |
+|11        |"We certainly believe that the president's budget improves the long term fiscal outlook because his policies are more than paid for over the long run," Office of Management and Budget Deputy Director Shalanda Young said on the conference call with reporters Friday morning. Young noted that the American Jobs Plan and the American Families Plan are "fully offset within 15 years.|
+|12        |" Mr. Biden has already said he wants to pay for his infrastructure and families plans by increasing taxes on those making more than $400,000, and by increasing the top corporate tax rate to 28%, up from its current rate of 21%.                                                                                                                                                       |
+|13        |The top corporate tax rate was 35% before the Trump-era tax cuts.                                                                                                                                                                                                                                                                                                                          |
+|14        |It's not clear how the American Jobs Plan and American Families Plan would affect real annual GDP growth, which the Biden administration estimates will be 2% in 10 years without those two plans.                                                                                                                                                                                         |
+|15        |On a call with reporters Friday, White House officials admitted that there will be "some short term inflation," although they expect that to settle down in the years to come.                                                                                                                                                                                                             |
+|16        |The president's proposal provides a $500 million increase for Homeless Assistance Grants;                                                                                                                                                                                                                                                                                                  |
+|17        |increases funds for civil rights offices and activities across the government;                                                                                                                                                                                                                                                                                                             |
+|18        |provides the most ever discretionary funding for the Centers for Disease Control and Prevention ($8.7 billion);                                                                                                                                                                                                                                                                            |
+|19        |and would put $936 million into a new Accelerating Environmental and Economic Justice Initiative at the Environmental Protection Agency.                                                                                                                                                                                                                                                   |
+|20        |The budget also calls on Congress to address prescription drug prices and to expand Medicare.                                                                                                                                                                                                                                                                                              |
+|21        |The president's budget request for the Pentagon is $715 billion, a 1.6% increase over the current budget.                                                                                                                                                                                                                                                                                  |
+|22        |Included in that is a $5.1 billion enhancement of the Pacific Deterrence Initiative meant to maintain the United States' edge over China, which Defense Secretary Lloyd Austin calls the department's "pacing challenge." The Pentagon budget request includes $617 million in new investments to tackle climate change.                                                                   |
+|23        |It also requests more funding for COVID-19 and pandemic response activities, like testing and medical research.                                                                                                                                                                                                                                                                            |
+|24        |Mr. Biden's budget proposal is just that — a proposal.                                                                                                                                                                                                                                                                                                                                     |
+|25        |A president's budget is a blueprint, giving a clear picture of a president's priorities.                                                                                                                                                                                                                                                                                                   |
+|26        |The ball is now in Congress' court, and members will be massaging their own ideas of what the budget should look like in the weeks and months ahead.                                                                                                                                                                                                                                       |
+|27        |Mr. Biden has already outlined much of the spending he wants in the American Jobs Plan and American Families Plan.                                                                                                                                                                                                                                                                         |
+|28        |Republicans, who have already been blasting Mr. Biden's proposals as too massive, are sure to balk at not only the $6 trillion price tag for 2022, but also at the ever-increasing budgets and increasing national debt the White House projects into the future.                                                                                                                          |
+|29        |The national debt, which grew by roughly 74% under former President Barack Obama in eight years and roughly 33% under Mr. Trump in four years, has increased by more than $3 trillion in the barely one year since the pandemic began.                                                                                                                                                     |
+|30        |The budget proposal comes as the White House continues to negotiate with Republicans and Democrats on the American Jobs Plan.                                                                                                                                                                                                                                                              |
+|31        |Republicans proposed spending less than $1 trillion on infrastructure, far less than what Mr. Biden had originally pitched, but also more than Republicans had offered initially.                                                                                                                                                                                                          |
+|32        |Republicans want an infrastructure package to focus exclusively on so-called "hard" infrastructure, like roads, bridges and tunnels, while Democrats want the package to be much more expansive.                                                                                                                                                                                           |
+|33        |Mr. Biden is sending his budget to Congress well beyond a deadline than is typical for a president, after a delayed transition and as the Biden administration still lacks a confirmed OMB director.                                                                                                                                                                                       |
+|34        |Mr. Biden initially nominated Neera Tanden for the position, but she withdrew from consideration when it became clear she lacked sufficient support in the Senate.                                                                                                                                                                                                                         |
+|35        |Budget hawks immediately expressed concerns that Mr. Biden's budget will add to the deficit and debt.                                                                                                                                                                                                                                                                                      |
+|36        |"The budget proposes $5 trillion of spending and tax breaks and only pays for three-quarters of the cost, leaving nearly $1.4 trillion of higher debt," Committee for a Responsible Federal Budget President Maya MacGuineas said in a statement. "Debt under the budget would hit new records almost every year.                                                                          |
+|37        |Furthermore, before we enact trillions of dollars in new initiatives, we need a plan to finance or cut back what we've already committed to.                                                                                                                                                                                                                                               |
+|38        |Any comprehensive plan to invest in the future must address our unsustainable fiscal outlook.                                                                                                                                                                                                                                                                                              |
+|39        |We should work to leave our children a strong economy and a sound budget, not a mountain of debt.                                                                                                                                                                                                                                                                                          |
+|40        |" Congress has until the end of September to pass 12 appropriations or spending bills before government funding runs out.                                                                                                                                                                                                                                                                  |
++----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+************* Lemma Vectors (in prep for the matrix to decompose) *************
+(41,[29],[0.6155276184381002])
+(41,[1,12],[1.2595524100531712,1.2595524100531712])
+(41,[10,11,12,36],[4.269718125726594,4.269718125726594,4.269718125726594,4.269718125726594])
+(41,[1,9],[1.4946146961457287,1.4946146961457287])
+(41,[23,26,32],[2.7458662643134626,2.7458662643134626,2.7458662643134626])
+(41,[2,3,5,6,11,14,15,29,36],[10.998593635996908,10.998593635996908,10.998593635996908,10.998593635996908,10.998593635996908,10.998593635996908,10.998593635996908,10.998593635996908,10.998593635996908])
+(41,[39],[0.9295943125239217])
+(41,[20,23,28,31],[2.994476393781688,2.994476393781688,2.994476393781688,2.994476393781688])
+(41,[19,22,36,37],[3.6838331431241613,3.6838331431241613,3.6838331431241613,3.6838331431241613])
+(41,[9,33],[1.8460144227086654,1.8460144227086654])
+(41,[9,37],[2.068371219014749,2.068371219014749])
+(41,[26],[1.0927097258700422])
+(41,[2],[1.055786998646283])
+(41,[5,15,30],[3.2104620112793723,3.2104620112793723,3.2104620112793723])
+(41,[12,27,32],[4.826108704106305,4.826108704106305,4.826108704106305])
+(41,[5],[1.2840370709254076])
+(41,[14],[1.16067806918374])
+(41,[25],[1.174788384101122])
+(41,[2,4],[2.4154477143636117,2.4154477143636117])
+(41,[2,22],[3.4757234088125366,3.4757234088125366])
+(41,[37],[1.3243732540159072])
+(41,[27,32],[2.6606812117073373,2.6606812117073373])
+(41,[17],[1.40357332418435])
+(41,[11],[2.7728388187212927])
+(41,[6,7],[2.882530120243411,2.882530120243411])
+(41,[22],[1.5674515642376798])
+(41,[16,18],[2.95360321212365,2.95360321212365])
+(41,[22],[1.7488474322779444])
+(41,[36],[1.4875456208796844])
+(41,[5],[1.4349982942331543])
+(41,[7],[1.6168600201426304])
+(41,[33],[1.4961323259940988])
+(41,[4,11,15,20,22],[7.780729849571092,7.780729849571092,7.780729849571092,7.780729849571092,7.780729849571092])
+(41,[36,39],[3.1952155330702037,3.1952155330702037])
+(41,[22],[1.6162520645915097])
+(41,[11,40],[3.38237041776773,3.38237041776773])
+(41,[31],[1.6754708484930414])
+(41,[14],[1.6535124690190526])
+(41,[40],[1.5883404885389452])
+(41,[35],[1.6408187897294382])
+(41,[39],[2.206520643448665])
+(41,[36],[1.5470103274675666])
+(41,[26],[1.7346729202821365])
+(41,[31],[1.657236868110035])
+(41,[34],[1.8266971181604703])
+(41,[29],[1.593907524136944])
+(41,[34],[1.6457919827048701])
+(41,[2,11,12,14,27,30,37,38],[22.592412788619527,22.592412788619527,22.592412788619527,22.592412788619527,22.592412788619527,22.592412788619527,22.592412788619527,22.592412788619527])
+(41,[1,9],[3.4453969491798833,3.4453969491798833])
+(41,[2,11,12,14,27],[9.668823682915184,9.668823682915184,9.668823682915184,9.668823682915184,9.668823682915184])
+(41,[19],[1.686354112493035])
+(41,[2,7],[4.339142485833205,4.339142485833205])
+(41,[1],[1.924297807303501])
+(41,[28],[1.7299194223924255])
+(41,[26],[1.8338758226821215])
+(41,[29],[1.812466072951617])
+(41,[38],[1.9483319647003972])
+(41,[14],[1.7286556298750222])
+(41,[4,9,10,15,28,30],[15.227011680109051,15.227011680109051,15.227011680109051,15.227011680109051,15.227011680109051,15.227011680109051])
+(41,[8,9],[3.8195076048058203,3.8195076048058203])
+(41,[1],[1.8287889447117012])
+(41,[11,12,36],[6.329478889963131,6.329478889963131,6.329478889963131])
+(41,[12,13],[3.6990256526435035,3.6990256526435035])
+(41,[6,29],[3.753988058925454,3.753988058925454])
+(41,[5],[1.826750700114081])
+(41,[3],[1.921878712988701])
+(41,[28],[2.319258848624926])
+(41,[26],[2.150947616509422])
+(41,[23],[2.4562975087709797])
+(41,[6,20,28],[7.116305009587461,7.116305009587461,7.116305009587461])
+(41,[14],[1.9766238704115682])
+(41,[36],[2.0210770476907])
+(41,[8,36],[4.5777211677077325,4.5777211677077325])
+(41,[9,11,14,27,30],[11.236256249905772,11.236256249905772,11.236256249905772,11.236256249905772,11.236256249905772])
+(41,[2],[2.250479365972702])
+(41,[9],[2.1178590418692917])
+(41,[26],[2.0804294176329243])
+(41,[2,30],[5.895152654561729,5.895152654561729])
+(41,[2],[2.056277609236605])
+(41,[11],[2.0042666755482257])
+(41,[10,18],[4.585732769659245,4.585732769659245])
+(41,[4],[2.376409525610757])
+(41,[11],[2.1017517406190582])
+(41,[31],[4.098851013302469])
+(41,[29],[2.193252740704584])
+(41,[32],[2.0561428020107333])
+(41,[6,7,12,16,17,21,28,29],[20.15321844422966,20.15321844422966,20.15321844422966,20.15321844422966,20.15321844422966,20.15321844422966,20.15321844422966,20.15321844422966])
+(41,[5],[2.572566957975468])
+(41,[9,12,13],[10.000328481121885,10.000328481121885,10.000328481121885])
+(41,[1,2,5,6,8,9,27,31,36,40],[21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515,21.419478508369515])
+(41,[18],[2.0966503169920294])
+(41,[0,36],[4.8538328328701645,4.8538328328701645])
+(41,[11],[2.200974187545583])
+(41,[3],[2.3216730894218105])
+(41,[33],[2.285463985674759])
+(41,[31],[2.1214859423349073])
+(41,[11,14,27,30],[17.49102053316731,17.49102053316731,17.49102053316731,17.49102053316731])
+(41,[14],[2.2505612258286742])
+(41,[5,7,12,27,28,37],[12.471813428535746,12.471813428535746,12.471813428535746,12.471813428535746,12.471813428535746,12.471813428535746])
+(41,[29],[2.165427642608231])
+(41,[23],[2.5358040234021795])
+(41,[2,28,29],[7.276358147818705,7.276358147818705,7.276358147818705])
+(41,[11],[4.771193046658819])
+(41,[36],[2.2508068456104886])
+(41,[11,15],[4.769694428127595,4.769694428127595])
+(41,[4],[2.5784015115877152])
+(41,[32],[2.263331213169949])
+(41,[17],[2.187125908059873])
+(41,[4,8,17,40],[10.93748728467035,10.93748728467035,10.93748728467035,10.93748728467035])
+(41,[18],[2.4770770813448757])
+(41,[4,9,10,15,28,30],[15.6044947874998,15.6044947874998,15.6044947874998,15.6044947874998,15.6044947874998,15.6044947874998])
+(41,[26],[3.0536226826591406])
+(41,[39],[2.5074108642314337])
+(41,[3,15],[6.814470318600952,6.814470318600952])
+(41,[10],[2.306018813744783])
+(41,[0,1,6,28],[9.438431292343891,9.438431292343891,9.438431292343891,9.438431292343891])
+(41,[13,37],[5.093944860607261,5.093944860607261])
+(41,[28,38],[4.6357137537456765,4.6357137537456765])
+(41,[12,13,36],[16.66044050002999,16.66044050002999,16.66044050002999])
+(41,[11,17],[5.088776472851305,5.088776472851305])
+(41,[12,21],[4.84632776789721,4.84632776789721])
+(41,[40],[2.376595226632646])
+(41,[8,36],[4.604006355227963,4.604006355227963])
+(41,[40],[2.492754546407252])
+(41,[14,25,34],[7.184464261466167,7.184464261466167,7.184464261466167])
+(41,[34],[2.536620994663])
+(41,[17,23],[5.222640231896314,5.222640231896314])
+(41,[15],[2.3852217985135584])
+(41,[8],[2.8752532478332453])
+(41,[11],[2.785315697332917])
+(41,[15],[2.396335640245231])
+(41,[25],[2.605290888212763])
+(41,[16,19,22],[8.29227597302957,8.29227597302957,8.29227597302957])
+(41,[6,7],[4.814765691180393,4.814765691180393])
+(41,[39],[2.4526336737105896])
+(41,[11],[2.524328310153643])
+(41,[4],[2.620284554371524])
+(41,[36],[2.5623398515282263])
+(41,[9,32],[5.545082588477423,5.545082588477423])
+(41,[20,38],[5.399312162668151,5.399312162668151])
+(41,[17,18,23,40],[11.888251630763406,11.888251630763406,11.888251630763406,11.888251630763406])
+(41,[22],[2.560161870604165])
+(41,[11],[2.4942157720090727])
+(41,[1,5,11,16,21,25,29,33,36],[29.0378895157135,29.0378895157135,29.0378895157135,29.0378895157135,29.0378895157135,29.0378895157135,29.0378895157135,29.0378895157135,29.0378895157135])
+(41,[7],[3.1148528423087725])
+(41,[11],[2.9979120756451345])
+(41,[7],[2.5846132426312067])
+(41,[11,33],[5.613142616300482,5.613142616300482])
+(41,[4,5,12,24,27,28,29,31,33,34,35],[37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339,37.59658251022339])
+(41,[22],[2.8541488754308357])
+(41,[22],[2.868624399604621])
+(41,[40],[3.0450701785220256])
+(41,[10],[2.5753383745849])
+(41,[2],[2.8630959671817156])
+(41,[1],[2.958345730413756])
+(41,[23],[3.2154323694049824])
+(41,[21,22,23],[9.073607833071918,9.073607833071918,9.073607833071918])
+(41,[11],[2.8810801446387204])
+(41,[4,10,15],[8.787362634156544,8.787362634156544,8.787362634156544])
+(41,[36],[3.0744894724666767])
+(41,[5,29],[5.721514981302383,5.721514981302383])
+(41,[22],[2.8210934900361213])
+(41,[14],[2.9101807665859942])
+(41,[4],[3.1796634035545055])
+(41,[14],[3.187049652999853])
+(41,[35],[2.953539224102158])
+(41,[19],[3.2665617159275864])
+(41,[36],[2.949578822886061])
+(41,[22],[3.407273798633025])
+(41,[1,4,11,15],[12.345637838711212,12.345637838711212,12.345637838711212,12.345637838711212])
+(41,[32],[6.517357584448463])
+(41,[37],[3.2965140382109377])
+(41,[23],[3.063171047527835])
+(41,[4],[3.3874303437618956])
+(41,[36],[2.907966626823305])
+(41,[21],[3.027113150849329])
+(41,[4,8,36],[10.318226385372633,10.318226385372633,10.318226385372633])
+(41,[40],[3.2302586785436773])
+(41,[20],[3.673837393728054])
+(41,[11],[2.991451270124407])
+(41,[33],[2.966938783748542])
+(41,[33,34],[6.08760527295633,6.08760527295633])
+(41,[0,1,2,4,5,6,7,11,20,21,22,24,25,26,28,30,33,35,36,39],[91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579,91.82476326363579])
+(41,[22],[3.322118646225874])
+(41,[16],[3.3331751222762085])
+(41,[11],[3.010872723296664])
+(41,[14],[3.2212500975138743])
+(41,[35],[3.048518770740965])
+(41,[11],[3.447640404926954])
+(41,[4],[3.0497923086189065])
+(41,[8],[3.7745648709838377])
+(41,[26],[3.521581620086918])
+(41,[18],[3.7147584983809856])
+(41,[36],[3.2233051520470863])
+(41,[2,26],[6.272118426561858,6.272118426561858])
+(41,[5,29],[8.61204044171254,8.61204044171254])
+(41,[4],[3.2453081194951436])
+(41,[19],[3.467621910009429])
+(41,[5,19],[7.180857204024018,7.180857204024018])
+(41,[37],[3.2734821587721603])
+(41,[5],[3.457854998336672])
+(41,[35],[3.3775280157990157])
+(41,[37],[3.6315893013802842])
+(41,[20],[3.2461939572233174])
+(41,[29],[3.2676929377676753])
+(41,[36],[3.7994876866942433])
+(41,[39],[3.6596671161348246])
+(41,[12],[3.371859423432894])
+(41,[2,3,7,8,28,29,35,36,39],[42.18822373614765,42.18822373614765,42.18822373614765,42.18822373614765,42.18822373614765,42.18822373614765,42.18822373614765,42.18822373614765,42.18822373614765])
+(41,[14],[3.5261147857060484])
+(41,[22],[3.974859838468621])
+(41,[7],[3.7511654746921237])
+(41,[9,32],[7.660001034737619,7.660001034737619])
+(41,[12],[3.394729178904542])
+(41,[38],[3.6015878533745878])
+(41,[22],[3.9179692903147667])
+(41,[33],[3.3964013125503114])
+(41,[10],[3.5272879783908393])
+(41,[15],[3.4751146604792025])
+(41,[39],[3.7819199253571565])
+(41,[10,14,33],[11.212478557860853,11.212478557860853,11.212478557860853])
+(41,[19],[3.9084721328103047])
+(41,[13],[3.5056600216333926])
+(41,[18,21,22],[11.682544814628042,11.682544814628042,11.682544814628042])
+(41,[12,13],[7.593588682944806,7.593588682944806])
+(41,[9],[3.9317264676510457])
+(41,[6,28],[7.6771548249444175,7.6771548249444175])
+(41,[31],[3.5342084212354132])
+(41,[19],[8.045647795351496])
+(41,[16],[3.6615113617744934])
+(41,[25],[3.764841533346036])
+(41,[4],[3.9905936197708343])
+(41,[5,31,36],[15.651974470116603,15.651974470116603,15.651974470116603])
+(41,[17],[4.068151854116709])
+(41,[33],[3.9361337026384535])
+(41,[29],[4.664340653784988])
+(41,[16],[3.904398807422669])
+(41,[19,22,37],[11.587497265008961,11.587497265008961,11.587497265008961])
+(41,[7],[4.030075561071068])
+(41,[28],[3.7342390536541226])
+(41,[33],[3.9643550604350652])
+(41,[15],[3.8037347973254327])
+(41,[4],[3.7807848514554925])
+(41,[28,30,31,32],[22.97704389181905,22.97704389181905,22.97704389181905,22.97704389181905])
+(41,[33],[3.7672635186939343])
+(41,[38],[3.8807190540531535])
+(41,[34],[3.919488552679699])
+(41,[7],[4.0077644520855165])
+(41,[22],[4.276722173190273])
+(41,[31],[4.264993643683911])
+(41,[5],[4.206591586319702])
+(41,[22],[4.018498007728625])
+(41,[2,7],[8.470732651082875,8.470732651082875])
+(41,[7],[4.415723771356684])
+(41,[22],[4.232391903360398])
+(41,[1,20,26,33,40],[22.469921325246535,22.469921325246535,22.469921325246535,22.469921325246535,22.469921325246535])
+(41,[2,12,31,32],[21.436670040520678,21.436670040520678,21.436670040520678,21.436670040520678])
+(41,[2,16,24,28,30],[26.398782299937636,26.398782299937636,26.398782299937636,26.398782299937636,26.398782299937636])
+(41,[27],[4.097821549603456])
+(41,[31,34],[7.955236921815402,7.955236921815402])
+(41,[10],[4.024752538582153])
+(41,[29],[4.114575868215503])
+(41,[4],[4.145677570781091])
+(41,[22],[4.421448295039524])
+(41,[22],[4.500176235297228])
+(41,[4,11,15],[13.144075615200205,13.144075615200205,13.144075615200205])
+(41,[34],[4.271149403350143])
+(41,[33],[4.433359643232872])
+(41,[22],[4.964605368843837])
+(41,[10,30,32],[19.95595678600184,19.95595678600184,19.95595678600184])
+(41,[5],[4.38862374939148])
+(41,[29],[4.342814213360186])
+(41,[2,29],[13.18363205227007,13.18363205227007])
+(41,[10,34],[9.999613984199991,9.999613984199991])
+(41,[18],[4.677695676132315])
+(41,[2,7],[9.426170146693115,9.426170146693115])
+(41,[5],[4.741832485353727])
+(41,[11],[4.877696941357567])
+(41,[34],[4.763317198832891])
+(41,[30],[4.676305821843262])
+(41,[28],[4.623116178514345])
+(41,[37],[4.576376696182642])
+(41,[10],[4.754267363312973])
+(41,[20],[5.12360616911218])
+(41,[11],[4.9228696473655695])
+(41,[19],[4.771940128245011])
+(41,[26],[5.3049144812656355])
+(41,[22],[4.786823646508233])
+(41,[32],[5.216890885261087])
+(41,[32],[4.656140152248667])
+(41,[6,7],[10.630771562265862,10.630771562265862])
+(41,[11,38],[10.190106388848744,10.190106388848744])
+(41,[3,5,11,38],[20.826440205328073,20.826440205328073,20.826440205328073,20.826440205328073])
+(41,[34],[5.116391130598029])
+(41,[32],[4.8828062343343746])
+(41,[15],[5.427592289298747])
+(41,[16],[5.500870229335394])
+(41,[2],[5.881823028020571])
+(41,[37],[4.973290286957356])
+(41,[1],[4.999167401416216])
+(41,[22],[5.201117687583992])
+(41,[20],[5.9180189541520445])
+(41,[2,35],[10.713146679079092,10.713146679079092])
+(41,[1],[5.099284512444134])
+(41,[35],[5.813139323331569])
+(41,[29],[5.406232253906503])
+(41,[9],[5.436463712686167])
+(41,[6],[5.420746296790758])
+(41,[29],[5.617202364519617])
+(41,[18],[5.509353843313209])
+(41,[6],[5.456464379392837])
+(41,[37],[5.683403001675598])
+(41,[5],[5.481005488308954])
+(41,[0,1,2,3,5,6,8,28,29,31,36],[84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449,84.16867065320449])
+(41,[36],[6.256095040355232])
+(41,[22],[6.127632653234007])
+(41,[10],[5.714293488694937])
+(41,[2,3,14],[18.721461428067723,18.721461428067723,18.721461428067723])
+(41,[25],[6.046070881011942])
+(41,[32],[5.9774423746228456])
+(41,[7],[6.071902575625466])
+(41,[4],[6.258344760089248])
+(41,[10],[6.222942833038331])
+(41,[21,22],[13.267715091828121,13.267715091828121])
+(41,[40],[6.778220219375156])
+(41,[12],[6.37528355762035])
+(41,[18],[6.793487691505945])
+(41,[3],[6.588978219736628])
+(41,[9],[7.224270607598399])
+(41,[0,1,3,5,28],[34.20370288178245,34.20370288178245,34.20370288178245,34.20370288178245,34.20370288178245])
+(41,[36],[6.691208842385526])
+(41,[0,1,4,5,10,12,14,24,27,28,31,33,34,35],[112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322,112.64973354094322])
+(41,[38],[7.045901625120267])
+(41,[4],[7.20667484570802])
+(41,[21],[7.230205343118214])
+(41,[28],[7.107145250360986])
+(41,[5,37],[14.768712045890943,14.768712045890943])
+(41,[3],[7.297923517173165])
+(41,[28],[7.278995507287646])
+(41,[8],[7.789821131053636])
+(41,[5,23,29],[23.15832100287551,23.15832100287551,23.15832100287551])
+(41,[22],[7.6907302284094055])
+(41,[0],[7.789821131053636])
+(41,[22],[8.120062817924213])
+(41,[19],[8.02343598223514])
+(41,[33],[9.309646884798049])
+(41,[6,7,8],[25.921791767451495,25.921791767451495,25.921791767451495])
+(41,[2],[9.463797564625308])
+(41,[7],[9.9562740497231])
+(41,[10],[9.9562740497231])
+(41,[34],[10.744731410087372])
+(41,[34],[10.967874961401582])
+
+Num of concepts: 41
+
+************* SVD *************
+
+************* U: Lemma x Concept *************
+
+(How much does a given lemma contribute to a given concept)
+U: Num rows = 352
+U: Num cols = 41
+
+************* S: Concept priority *************
+
+S: Size = 41
+[548.5691670814014,311.87445854105255,239.8150711871488,106.12397216202808,86.9351527850473,82.07339317158488,71.75227210097246,69.31511176312277,59.72630351095036,57.922608413447904,55.2975426650343,48.9957339333584,46.418930320781335,43.2072263448986,40.96339438864747,40.20448989866703,35.660246099369544,34.68251404237729,32.29038327021918,30.874014632755063,29.719972281046662,26.871387356810732,25.235446869507218,23.474201503367397,22.52213477705952,21.64852537990582,21.0614965729919,19.666856197757458,18.353170056197982,17.230154041540327,16.26272755381321,15.931534847197053,15.673478685934553,14.912821702450227,13.751072260911391,13.444682649029716,12.489334234416587,11.331237639513057,10.970991357281365,10.42691062584011,9.9697311016934]
+
+************* VT: Concept x Sentence *************
+
+VT: Num rows = 41
+VT: Num cols = 41
+-0.29578819516312094    -0.30390151955352834   -0.17265995671365947   -0.06541438371837838    -0.2534480575501405    -0.3166349349927696    -0.1616861858506811    -0.11650732682250228    -0.062141789518978405  -0.003966695986256737  -0.13641032053919536   -0.11413257029046635   -0.15024275222377684   -3.8531105332528586E-4  -0.13783946738423627   -0.002609340276023613   -0.007430771200708022  -0.0014189091645494998  -1.1130166528649741E-4  -1.4145483293586493E-4  -0.10706672995949101   -0.11120745148173761   -0.10613425648895351   -7.871169841958775E-4  -0.2528960348375696    -0.10968959729144091    -0.10685313991429395   -0.1507436655319297    -0.3217002441830569    -0.07689165391839531    -0.11248196751178444   -0.20099936246216907   -0.0022871899234617184  -0.2567766190138371    -0.14584761874892527    -0.2591557182480914     -0.17242599278279255   -0.002269501983736944   -0.002221997303911213  -0.1135576697574817     -0.003803450168679396  
+-0.0168278812506015     -0.006617076726918303  0.26320788080949264    0.07379820080465205     -0.08857200946633184   -0.026425877666751175  0.24718848935129945    0.2130750600410201      0.07690637631509889    2.2018347093023455E-4  -0.2582527767383201    0.19496469675764777    -0.2763423479155291    -5.128170542097651E-4   -0.25647315562756984   6.55453711901355E-4     0.011650579688767168   0.0019055292749949626   4.975688668837999E-4    4.539238351958695E-4    0.18852849705631022    0.19685172266027623    0.18948796791492226    5.495126709538815E-4   -0.08560857675908497   0.1932623737452931      0.18811459369931427    -0.2756117489325819    -0.013521876788234959  0.06256901439367339     0.18611084892377355    -0.22340726353984464   -0.00185811923833207    -0.08064860374757413   -0.27660419101261646    -0.0682140563713313     0.26816989784656003    -0.0012125994993251682  4.804151424154128E-4   0.2062209615388879      0.003085642320183047   
+0.112146970238577       0.12084054483083473    0.19389112015686183    0.36063584723533293     -0.20795122684374637   0.1386822692161978     0.15862764445975164    -0.11608106585096697    0.3513153416528001     0.008285171227667443   -0.04807339375333837   -0.16277765080210116   -0.038417591214587946  6.53684180568236E-4     -0.04384695060258133   -0.0023456643015429685  0.0038365187186008287  0.002796444996312944    -7.540621470331754E-4   -4.558481209968856E-4   -0.16486763829363235   -0.15861032342746326   -0.16514282022809468   0.004194893927531405   -0.20335169297464561   -0.15903396622746857    -0.16416035970435183   -0.0367328899799414    0.15364441707493176    0.3493790988312657      -0.16724279664057962   0.2740666125675306     0.004417723992154092    -0.2066132130825687    -0.043254583648093384   -0.16621770575835304    0.19361784557886377    -0.0018830788234377896  -6.422775003465235E-5  -0.12344900039720018    0.008018026555868684   
+0.31893991806494965     0.4190864940496902     -0.20015152403661451   -0.08267650751938932    -0.05419844613396263   0.26244935670279357    0.1742106544134879     -0.33687209128748774    -0.16141433368976088   0.00431227337968103    0.023550864908428774   0.08290362569748831    -0.17777246767906374   -0.008664871779967062   7.34897810973579E-4    -0.006397324499939332   -0.01813080771312849   -0.03171090838623829    0.0017503360000824019   0.0018194855452892144   0.07759387768158454    0.06699474283999535    0.05425739769680618    8.996599441130331E-5   -0.0773139607819405    0.09282985932133098     0.07597378294311709    -0.10766442627792863   -0.22044901421386845   -0.2814147621132888     -0.03543037141107602   0.06596354194068396    -0.02657251483019741    0.03298291408215263    -0.09361536982603993    -0.35986899111761056    -0.04804227732700537   -0.025254801401263027   -0.011512401743807438  -0.2635190484079389     0.046294838897284064   
+0.2863883393955538      0.03900683868049204    0.20817035884542376    0.12597355825692608     0.01911308680781615    -0.31002385581217273   0.06825238118593535    0.08510463510822111     0.09887164355240943    0.04173607921516184    0.22029889701017477    -0.2062066746592998    -0.12343579609119833   -0.012659242182131637   0.1717387039540669     0.033041472365519055    -0.23811272683469178   -0.046086412290631325   -0.005818357459310403   -0.003502540145393998   0.045395332377100535   -0.2285086757743188    0.044257067242885084   -0.06822946570553814   0.011633607813366177   -0.1741213074266235     0.04486422767588497    -0.07025219288067786   0.1853852179216976     -0.5007702987382444     0.21139743356512525    -0.024283541179374313  0.06711062293873143     -0.2677192872995582    -0.08183771922266683    0.024865888326309       -0.13773471097916756   -0.001452393275058514   -0.013863594608366954  0.09856453306394963     -0.019260358026239235  
+-0.15981006063801462    -0.07605327902819142   0.35565318626234527    -0.06514315092604131    -0.08286192246207422   -0.013959198832351291  0.0448095382888013     -0.1318995935417625     -0.031168530701990216  0.12585185572428428    0.007849371777746894   0.39204868974502655    0.21844284026691776    0.019351700901772347    0.2900006010202023     0.0707951928456278      0.12317715590627029    0.008501153145238369    3.936964808985357E-4    0.004785091048666968    -0.060195495442346654  0.0028960443680293     -0.03836029484445934   -0.003238040428917917  -0.0516401560866781    -0.0014866705090368516  -0.060362380026382396  0.277753569721224      -0.11778425213858165   -0.02868997864322683    0.4150586549818919     0.09553982906173562    0.1398106797394052      -0.10686198169095507   -0.09008435551453157    -0.22200666491506582    0.017836137962739945   0.20524869206201762     0.22889140196321828    -0.13830375243386253    0.037778889199639315   
+0.08943018303955064     0.19397849926580218    -0.005319618773964335  0.3374616806760859      -0.13535612357239324   0.03868968047668228    -0.2929332743077246    0.09962869931210282     0.05670924791770032    -0.07939401538634772   0.12952289915296916    0.2810410995020224     -0.06282325541158472   0.0015746523843296425   0.38678443876928575    -0.02033771105978323    -0.05082552239670114   -0.05903437589981239    -0.004634102835885979   -0.001308250685578417   -0.05465831893880005   -0.014649055760104146  -0.07446269195571359   -0.0085481960858486    -0.18567408243877398   0.051163589634870714    -0.04862238745265483   0.05654363380084994    -0.24244482905540263   -0.05473381765539402    -0.25981209858974563   -0.3673214305489069    -0.20672003773064465    0.0509084460393044     -0.025709377239158098   0.14977795785894427     0.1506776288413516     0.06392957002529415     0.13668338967907778    0.1723692387874865      -0.017200212831755917  
+-0.11547859654426565    0.018453937689293418   0.13785020085280578    -0.2882701785784254     0.027120429268091995   -0.1303113941810379    0.28697287896502943    0.10910002123677032     0.307647149286744      0.07148867624808178    -0.06073250251235629   -0.09005740462459308   0.07715495357194788    0.02291533607468311     0.05591314748101205    -0.10435317533209694    -0.2492290544139007    -0.024420492756652583   0.003969855940596488    -0.0029746059909816665  0.10081151488255725    -0.07001719033560427   0.04330666101482889    -0.030251323704413618  -0.036439673762523696  -0.023847956001659974   0.10383154721095064    0.19758300686298713    -0.4854475616713765    -0.1407290009735771     -0.27845094936787623   0.22563759950601167    -0.06451567714082708    0.09194298711980715    0.06282000001068798     0.09354546671065161     0.20668119030615606    -0.008448784648354227   -0.052624558076474974  0.03514294096577747     0.22775695180282943    
+0.039704281813992715    -0.20030037679482038   0.18890250472724865    0.19269952388188227     0.0292157577600638     0.28397615671303966    -0.1882810946152485    -0.25777971400911337    -0.1884734831550182    -0.15924031105811587   -0.4239506731366141    0.0741625651758514     -0.04498293276704679   -0.020859049757884218   -0.13836681394799477   -0.1173945743258515     -0.39102253974458284   -0.192815657161479      -0.02017588421054857    0.008537767004466117    0.10516707727764271    -0.24961584317879545   0.12359954341921757    0.026510108247642897   0.1368850587385319     -0.06771097274035763    0.1040885927868044     0.07830522971114058    -0.07570520812403392   -0.04825768366973983    -0.0308184390777953    0.12924837284019897    -0.029307721106756935   -0.04813470199556549   0.05120242369652646     0.12942882121747082     -0.10986482696850797   0.09121100673208728     0.15061769220606008    0.06153408153101466     -0.07260510138859376   
+-0.20880832121332332    0.0338859318400597     -0.017712527106129625  0.0014048202206380783   0.2697662918469912     0.0078237691327816     -0.31404921476162895   -0.3028495738590846     0.10198059932208853    0.2858626043094223     0.25084882815059684    0.060470337433418564   -0.37590335707201417   -0.02309955689778148    -0.11508677994391187   0.2859457228961031      -0.10118475196530974   -0.16404536714091997    -0.010583553511275203   -0.014444371866750082   0.012973240599582539   -0.15809818245943374   -0.07807334531825116   0.0036794425921100582  -0.050738259711247874  0.04830820498013343     0.009068793241580525   -0.046040671116406556  -0.06382477146265401   0.061067008033958314    0.19647670373076995    0.10350677174879501    0.11001642779432204     0.10419181546948708    0.0032623555897350344   0.0754401894857285      0.28030092650910116    -0.14977727218476947    -0.08870780332329731   0.08104401458023858     0.13833628229935716    
+0.02062331026424661     0.1743556622517563     0.37080707797965407    -0.07434847004437445    -0.3415287707553248    -0.25321515939905237   -0.31267262285178704   -0.2201426459718785     -0.13839777191546623   -0.20756041157678737   -0.02019007552818363   -0.21508432291361596   0.006303599911366753   0.0069681522364885284   0.0741261690637448     -0.29815219330937237    0.2635889753124203     -0.0749729494030083     -0.005059400986494836   -0.0073516405381016305  0.03747889117900546    0.05941535934087634    -0.053461640463504545  -0.0677278826439703    0.13705376911098324    0.10893653444648105     0.06721643154452724    -0.14021702590466237   -0.040798125617663536  -0.01697159428270021    0.0018379746325242188  0.1361877882647465     0.18579056184799278     0.2120736023857341     0.005254034246543057    0.05584628326727674     0.1382626114643748     -0.09778207138392497    -0.13713048637295036   0.04345096662889087     0.029623706505016483   
+-0.17731248770304348    0.25446232335538277    0.00512559750334185    0.093275872705371       -0.1360675518555499    0.07811963415468104    -0.10695456745181836   0.0775953813449248      0.04772288015013501    0.22146592394918596    -0.1943687471500813    -0.12836373401554652   -0.03298994274481934   -0.028575754428475653   -0.11030035975520282   -0.051481365264420265   0.11474056815009019    0.10224134616534371     0.025528288874381758    -0.009439545778458406   0.21536306077718234    -0.1412680350041084    -0.18590923401536558   0.05361574320573765    2.511489367981997E-4   -0.12475639262427765    0.21353011821281886    0.22693480820956624    0.22086943790407437    -0.05737145459003025    0.052462856197713334   -0.19514062035649593   -0.12343559800304683    0.14808383383791257    -0.06018770138862777    -0.04443995610819847    -0.2317605886385385    0.08918708562161926     0.05608626667904591    -0.013059345702151365   0.5378256971904686     
+0.029975077521118422    -0.04891761669527934   0.29858608032265677    -0.10076970750483442    0.18371978204665418    -0.13360067026061076   0.16856463360134907    -0.21726949385521055    0.04095672582002083    -0.01652373752570603   -0.09499751800594476   -0.010517773617898123  -0.27282818748807514   -0.09237311008088572    0.14288696490861286    0.11004025990695981     0.22494762732348927    -0.022881255004951473   -0.018834253738658574   -0.007619875600065058   -0.06483190944123554   -0.0765896551323988    -0.02795245296747786   -0.03264820051660302   0.3295567855327185     -0.025570935127854782   -0.06652087609796503   0.04138747485944234    -0.019611711033664082  0.1148383127564837      -0.043281477991707354  -0.20336277012452253   -0.591171109865251      -0.011701115375010725  0.09649213137485563     -0.03566386923715796    -0.09883375229434298   -0.09530455317243983    -0.08056850303880307   -0.13060915222258954    -0.07307013436067811   
+-0.03499211864287216    -0.08498971456483653   -0.14833129648525628   -0.187090373823758      -0.27947048320628814   0.3794545001833587     -0.03441252151082702   0.1453578456577905      0.13177540865604584    0.13701076591561795    -0.005196360833719216  -0.14083402296099362   -0.2950575780941618    -0.04933734414086954    -0.026444033348980746  -0.3173026795052297     0.1310294155561131     -0.14250155298490347    -0.02064994937298814    0.03064404399341958     -0.2569787580544936    -0.005402418589498411  0.002172738172938952   0.02843066488851147    0.16903203911218764    0.09717828417012052     -0.21592355627915047   0.2450704592046814     0.015882880310780816   -0.23937529411804506    0.20652495524418304    -0.018607086799932993  -0.06779493973596537    -0.15232970266963416   0.011331683320210211    0.08640401739564849     0.1752289501742495     0.07887370114773952     -0.05876613691442571   0.08076686134287132     -0.10002556663795897   
+0.022529095693673146    0.076427920657584      0.14693837468702906    -0.01993662322110447    0.1532796612112741     0.031527678379535545   -0.21634247048407185   -0.12463741918046252    -0.1270456692627817    0.28040695871462323    -0.10613404168537743   -0.12016963281881696   0.3910213877292352     0.24739762687525702     -0.2362490120258282    0.15280562659300892     0.11148707499137378    0.025632215868904858    0.019262205401152865    0.053560423251624245    -0.10987789938964039   0.11388323273241051    0.15785116149940284    -0.12683579761951944   9.38346857988894E-4    0.003908170761904433    -0.10728536989801558   0.00143501870873785    0.102496511258639      -0.28446041666741423    -0.23428711308761835   -0.07641762692343916   -0.20147476899203315    -0.22742649413880434   -0.1177170018661642     -0.018198042938558246   0.31694687940593325    0.11773843079409947     -0.053562176417848     0.03217831037915757     0.017755834395208885   
+-0.0054876865765935276  -0.09312698785995321   0.28440686032198564    -0.03907063759892657    -0.030328814063607556  0.28856201757777533    -0.0551516266692435    -0.0032423422976961677  -0.14424560076439513   0.10775112474716554    0.3279007856266257     -0.32519200984824387   -0.02027183610737638   -0.03142186595201067    0.13139364977699367    0.031083457530396544    -0.06842926687171474   0.11289007515164698     0.139101120644411       0.08093034527374893     0.020194794442288277   0.119704892752797      0.3221095135939036     0.46094144184656727    -0.03499558083008254   -0.05813928986130933    0.037832078129715035   -0.08065596016098868   -0.19029319750356036   0.2140655233359673      -0.03827103833932639   -0.12988361166835757   0.03040468782086375     -0.10058084100453758   -0.04593681300968626    -0.006713726904225588   -0.14368580198979947   0.10500546667431104     -0.0946782206670017    0.018174752956008792    0.12235518549414452    
+-0.12248122809666823    -0.03758546322353485   0.31839958158919296    0.10936109726587463     0.08770945961494754    0.32752354111118576    0.07434046290694411    0.29227093508037794     -0.08771976416849503   0.03609809285036056    0.11838818488200466    0.06775819960780638    0.03590771215956941    -0.04493330746280014    -0.1650261091964635    0.12345250881187878     0.1892912792033605     -0.015616289090150393   -0.08467245327730791    -0.1109837839501539     -0.07564937402163702   -0.10574455349363668   -0.37897388930310255   -0.038964684494034674  0.17951163062179548    0.058036571384732734    -0.04495442018610175   -0.2306985224202066    -0.2058162334639525    -0.2523543640492034     -0.20312735812157107   0.011072797408721918   0.19784333693070594     -0.013946054131812373  0.020815503273992675    -2.4395275409268773E-4  -0.1756786788738373    -0.2395728485289836     0.07400619241479028    -0.03820434764779522    -0.01070307089306618   
+0.1189559801607628      -0.019760946363857272  1.0685474037873052E-4  -0.263978488543847      -0.053145177925710996  0.09270770958906871    0.0769645442104969     0.01749203813396924     -0.1226362270837458    -0.058126811296164635  0.17767692215962527    -0.1654464390184413    0.2092003396339507     0.20944920799935873     -0.05744066619695297   -0.008140812988503193   -0.17025072885983933   -0.1781208528694588     -0.18364773678368868    -0.0848921887834792     0.1423012597850848     -0.29050713651005455   -0.4358339386493755    0.039086459760933834   -0.01465954047057201   0.0296352005569242      0.1624052662171113     -0.07614649285199049   -0.017941170788461833  0.19888480128358207     0.1598325499806719     -0.2389873003305669    -0.14536834455680903    0.06565232323731013    -0.12157666034296653    -0.06808071300437944    0.20013853494443615    0.2409467551501843      -0.03065875647709806   0.010012824396357482    -0.17939714134590704   
+0.09803167024001626     0.003357072279167093   -0.01582892220123366   -0.012977122073932397   -0.07112789992820168   -0.017271543176792456  0.07220692049920716    -0.011280343579290864   -0.30793568671649857   0.26374845788719364    -0.2743945940256077    0.06328196758177       0.03598035382991477    0.06982618658207446     0.2540160161692603     -0.008425355371003994   -0.18781898942984357   0.10071607007863986     0.01664189837644045     -0.23184462521970253    -0.03241710898108373   0.07662271682675376    -0.22887134677518917   0.1823349707574533     -0.06992581397289535   0.04114594362051241     -0.008752055603766164  0.18486940591877196    0.04475312854362985    0.07721839882490932     0.017650391777491177   0.006105477463161641   0.03593668148103869     -0.17640011946846096   -0.10630077243586479    0.0865216812733302      0.032018338436001485   -0.4866313688740674     -0.3502591919453874    0.10871468270395486     -0.011494851911222452  
+-0.06615294391728228    0.18451624513414977    0.16828834322308808    -0.03395152221866384    -0.062219475642110375  -0.014994510218174897  0.012203575109723294   0.1731334287850115      -0.1412469403898973    0.2541267405224327     -0.07052316926350884   -0.0967957926638416    -0.09140221554322671   -0.19176496872642432    0.019985799006058416   0.17965364796864758     -0.09056179341595032   -0.35213444319256937    -0.20528866346264563    0.09245419920720631     -0.04595475355745235   0.07323755250481126    0.11248206621169106    -0.33574599173658837   -0.21680556431802755   0.10885161497583751     -0.0335112417217073    0.17246791302830705    0.030447422041757453   0.1390780175723216      -0.12994528499818955   4.8762703404616603E-4  0.1020651593902191      0.12975132156143337    -0.008176051259707324   -0.015053022861958466   -0.28596637925450236   0.21669559655842635     -0.2573651309471565    -0.029418004935128778   -0.23495257263314687   
+-0.19109047615397126    -0.2775776043812814    -0.09709432752809066   0.3676403132632855      -0.27907821762027796   0.049522440594495676   0.26839511733014976    -0.0928819839061567     -0.17860496471565546   0.287840773914252      0.1841707746407285     -0.1412856372028423    0.05242016081244441    0.2079163551001343      0.12372092540672242    -0.05467087270965654    -0.006107435059729743  -0.12187193793150841    -0.05015249468665814    0.019133923729351382    0.1508718071725046     0.06239738724620142    0.16001595841387214    -0.254587116452118     0.06126814289673792    -0.05613168102722205    0.1234245487897304     -0.06615814594163907   0.00751646193445808    -0.04993267330184093    0.0463612078507856     -0.024642902992573584  -0.12574970000307975    0.20457776798337862    0.2010803055490022      -0.054532703627500685   0.12747555839401736    -0.20590388641862337    0.1260680911445821     -0.07058009589233778    -0.026099808458514208  
+0.17775087440401305     0.14515205972274683    0.10834055405862354    -0.0995295521251651     -0.06129701030917374   -0.15441852642134452   0.03224385544181965    -0.20362614281650673    0.09420508384684467    0.3005236028977556     0.19607873607039872    0.05876060151843168    0.06951191313076863    -0.03866477950146793    -0.37859432581148683   -0.2849773832524795     -0.14234378459660785   -0.033621697281141616   0.014064677096085424    -0.19461147201785683    -0.10435881844828215   0.1836238117304662     -0.03186811397820441   -0.03185836627517674   -0.026588702169998257  0.06068157362362146     -0.05857879851309794   0.07618929566894603    -0.06648476057595823   0.17027926352379905     0.010130551937389704   -0.15898702830738076   -0.007596987216597933   -0.0694493234985574    0.08520746361152816     0.16444502341286688     -0.23891754431346818   -0.15516107795530917    0.4162038136343553     0.07931924405918672     -0.07242025039047799   
+0.07191659234032372     0.13131673622858156    -0.06777740544936142   0.12803987282444199     0.05716437385709699    -0.012641111134517165  -0.043428822555281237  0.012101322468319513    0.35517647755999004    0.0322697348888223     -0.13523786174468316   0.050314090999796016   0.21099942671223873    0.3475967087924296      -0.04494002903181926   -0.03787548019370772    0.1066728702601982     -0.235566167040555      -0.10050245300592377    0.13798580629346152     -0.04136847645546504   -0.20471687381844567   0.24811350612857191    0.13494031122258682    0.19529604768673559    -0.046852843161602      -0.025348203103415234  0.048198326504777345   -0.19962154380975494   0.08215402659934457     0.14334079319201726    -0.30330835374400605   0.241280154593821       0.0527349557204158     -0.0020265112935508424  -0.073264694960072      -0.14383477683391394   -0.23127878220769799    -0.23407197097679283   -0.10759546611097634    -0.07462236467727353   
+0.02465544551443985     -0.169366497417976     0.01863402321974769    0.24414255162719956     0.38282586190339934    0.08718877286102678    -0.03529201688746823   -0.13137683913645934    0.21413375817973473    0.025855934708923344   -0.15444457259496872   -0.32946383339349644   0.017652494990070412   -0.011440722599184657   0.16190404808363057    -0.21165269470003287    -0.11298263082690668   0.18263583992673577     0.03798417814571671     -0.2072271802924571     -0.12038927506003838   0.27475244369659946    -0.18449613722830763   -0.21001126954286287   -0.03648105440566006   0.22786850567136122     -0.006004201301247178  -0.0267345272924705    -0.12956306837362336   -0.05231889804346901    0.15665523831912478    -0.14152519910803468   0.09588455810547267     0.18754102020800936    -0.12803809117468953    -0.08402917599184014    -0.05650589232224892   0.17123239858359138     -0.07473652319813967   -0.0711269133030746     0.0026244298560189477  
+-0.05240781773180585    -0.08550081713957426   -0.06951731984450255   -0.0458299625249821     0.04606609561166044    0.07418220839080897    -0.02369803258327883   -0.05140373290722251    0.06362274403472593    -0.025658056585065037  0.12772803748451433    -0.01787160656053849   0.052602672178242424   -0.11353551543027825    0.07251466673619594    -0.07402709102311156    0.07791907622312308    -0.08125768665143711    -0.1568887697193441     0.008858820521567778    0.0587236715084061     0.014801804811325203   0.10620530134716052    -0.07198150989033131   0.08702595928985135    -0.20362377002531384    0.006555019346820068   0.08734106064364522    0.042567959508014674   0.03461988864231591     -0.11023632855438076   0.1282368845000229     -0.07820001800099273    0.1406571697358846     -0.8182439887311973     0.10301138604965014     -0.06450782080407357   -0.209015854530752      0.13940013453553585    -0.0031126989337362677  -0.07286859923054678   
+-0.055821333548838725   0.028207879537078782   0.031463976932044196   -0.061941894731839156   -0.037143357460473064  -0.05512889242491726   -0.238694255396624     0.24734027138341816     0.1770426635770058     0.09889817566775821    -0.1377633818255185    -0.06323368865383969   0.016006241437362317   0.1274040843734704      0.09349077495406213    0.09923653946087778     -0.0702680490742008    -0.2966957134012811     0.12479870766680454     -0.3873528983834071     0.013141278705430602   0.1291786702998641     0.05820096771605553    0.35362103524787236    -0.05951621314501666   0.05572890849620941     -0.011614197069243937  -0.16724212229881935   0.11572522018897365    -0.11074410670987939    0.02741238322323633    0.24038191323764957    -0.2469724209368985     0.21381405405404103    0.02964768247717567     -0.22221346227882524    -0.06554579812585233   -0.047772983020751114   0.19394666745817218    -0.11589015085181978    -0.17915299874419943   
+-0.08521412331388524    0.03780847889517113    0.05230805375567276    0.06751957753077942     -0.07870771736272383   0.08138812590296285    -0.045581044628219575  0.05937147605318761     -0.021566503075622828  -0.42117682359463676   0.2201574783226005     -0.003049208085805069  0.05853508564051893    -0.07174175230888599    -0.2272774742394959    0.13601197664694967     -0.09794778461341043   -0.12905315747874652    0.21278465489115048     -0.4720172513668416     0.010739255662091898   0.14266307951678286    0.12231906944295828    -0.2317714237797282    0.02798785813663146    -0.17279905665924594    0.018132123099077635   0.3235418721756478     -0.042137005711043785  0.009192008721755407    0.10404920439412318    -0.13125211461790393   -0.04475808073169657    -0.09926754911114977   0.01376172426506657     -0.10509323297354638    0.07900888993210499    -0.11413979795295584    -0.2190833684125731    -0.10714517780168102    0.09825308580850467    
+-0.0067212787524608495  0.06569711349035123    -0.03544171358166514   -0.018997327964008794   0.17936956971444426    0.07435302660033749    -0.24068592025985897   0.12106314634586973     0.03672608774103407    -0.05263429801662738   -0.014880265013640745  -0.13795903017337272   0.018133957791840977   -0.10252526679605642    0.0942066034168426     -0.11302209675199051    0.12974946774009993    0.054137361192574084    -0.6099285374142005     -0.04881428027947546    0.23127362607485022    0.12706342084076522    0.07767016647788214    -0.07216114158045098   -0.10849120092181143   -0.059179494573964535   0.17229562350794292    0.030688121079864128   -0.11001732881446949   0.0930419232031758      0.10929976230042025    0.09693260605882932    -0.09513023476866461    -0.3758917046215169    0.20709901034896597     -0.1482881312295031     0.043500992720255115   -0.17961033389626058    0.12247941310964215    0.02126834061890519     0.0022332231012391884  
+-0.196171316285906      0.04463789489706057    -0.09212173242672225   -0.03365553301021399    -0.08186551856396024   0.013465667620791572   0.2527509778009694     -0.35098862516181223    0.13001797344207622    -0.0553539510940953    -0.08609142788238527   -0.07105408816818215   0.003882245573774659   -0.06289734394467375    0.15634981308010462    0.2082895462241348      0.11633713618729229    -0.15234369754684368    -0.25638032709234854    -0.3752852989212085     0.14111135138053937    0.0959907825730037     0.03285744160685697    0.21080650951681623    0.10441063246006538    0.009962785216155734    -0.06586092453199438   -0.030986419270567306  0.14836497802873466    -0.11674085575110757    -0.21502482077721236   -0.19061217093561733   0.290751527942642       -0.11433021228573306   0.042976270813281106    0.18993249295935544     0.02853917190451616    0.20525901609692623     0.07347029666681178    0.12375943142490917     -0.007752111326097929  
+-0.04523084519898572    0.2994176708040837     -0.14901758562187556   0.15853905115591532     0.010267079607935211   -0.08246251009582006   0.10579395599219166    0.07590890640175643     -0.16532371730497636   -0.08200613551893181   -0.17301565620872592   -0.31367891844569673   -0.023960508736599512  0.11682765921148397     0.008600881549422706   0.29056042886983174     0.10452608765724204    -0.13671613412955888    0.16327175406013436     0.11530112428711428     -0.09492063908817093   0.1728927424064185     -0.13555928799824674   8.304436302904866E-5   0.108681137021203      -0.11519576186056195    0.020133123637131628   0.009538855532267992   -0.3449442633352488    0.09097340695759559     0.2853659664972594     0.14657485560608405    -0.05164639236473814    -0.14653829667455717   -0.07798788607893366    0.31386342495733854     -0.016688467756336603  0.052395993840102684    0.2406494815315074     0.05046661940834493     -0.03424210810038969   
+-0.13793498778292396    0.04742033028130108    0.09274049813916341    7.15705802410314E-5     0.1918573186335506     -0.06606738329306408   0.11807602058721484    0.007895843638084876    -0.12733661005699787   -0.22656834900406397   -0.034760921240683126  -0.22124638277190514   0.016190478555649077   -0.17092422001680066    -0.01199886827341548   -0.030767200261872032   -0.13651115624313237   -0.2220388442896877     0.009498147480308937    0.34752943614423526     -0.08235162218184522   0.057947049438548115   -0.06758668158821843   0.22359513970850395    -0.14196792997896157   0.1474231082238284      -0.09369329976761374   0.2545992560930645     0.19496092176361285    -0.10421807647902542    -0.0561178124280014    -0.24477433284102967   0.11762169208145182     0.08448440032966831    0.03286088144821843     -0.18829634795201142    0.22027110455735865    -0.29630453104494936    0.2830346745927418     -0.10820030568421303    0.010208103827792761   
+-0.03558416966353164    -0.1005478578300566    -0.03038681575390585   -0.023806894579690062   -0.047841731889473514  0.10979564477572679    -0.08769738302419723   -0.15270833309240908    0.2976575102892007     0.03969744014320696    0.05263420712629327    0.04123978831148057    0.1448976621457084     -0.14048440715428145    0.04688685126803281    0.017710799403913725    0.07469739406876891    -0.21587771918923446    0.3839250591455713      0.2886751778250739      0.4176044182271412     0.2405490303644052     -0.270901919131746     -0.039004673179763756  3.1233784595015995E-4  0.07398711889063608     0.20281110930291096    0.026297458835986873   0.03185384093096433    -0.05148129776961123    -0.06391480478879771   0.01764336140310621    -0.040565088069762154   -0.26293653658105454   0.03407522608126965     -0.016994245474733688   -0.12409496480827151   -0.06902919171032397    -0.13097385062410055   0.07609644826632789     -0.20762422508810405   
+-0.1096060479548136     -0.030397026777205665  0.06987326435577104    0.12877696355052345     -0.18508853680321893   0.0031651928533023184  0.05267993948980808    -0.16163857599330236    0.13504331736544012    -0.18693761765145633   0.11012680766209376    0.10781373644824586    0.1131800552312544     0.06731477699443426     -0.1962447126282393    0.12222638846805284     -0.17606077270364098   0.055729555240395856    -0.390405901902668      0.20852130523062523     -0.22882543948354314   0.3055104268509151     -0.13710592092577095   0.23238904211640926    -0.1037655633725292    0.030759062228946102    0.04434083513936424    -0.003955948458780362  0.01953560544934635    -0.20880802615182245    0.16041190827030016    0.1140055074986597     -0.2712949847337234     0.14418656755019818    0.004541733126229312    0.11740709580509291     -0.17371046662063405   -0.005929418671898695   -0.25048269799624284   0.07587461492311394     0.053733249469743546   
+-0.2544935024926742     0.10981337017832056    0.06925923586771496    -0.23226217185398967    0.03558587319168653    0.17532072129290305    0.027968318573238636   -0.03908980027186133    0.04238370591839104    -0.2187375375529613    0.040432934779215335   0.00261414227575113    -0.08886795983156912   0.49675819737296933     0.20332523248460127    -0.062020082624643105   -0.13542924777745302   -0.06737347721539809    0.059479112053722805    0.03897788466813814     -0.015283157768348724  -0.024972720206439064  0.059867065880762294   -0.273340548562965     -0.1481082139699949    0.26414947103789244     -0.13761995951907618   -0.16496433565736723   0.1954196494172737     0.07851698088248724     -0.011272736657569726  0.021285037430263734   -0.06278711170469657    -0.2004275484117501    -0.04005524198705344    0.11725144480681997     -0.23945770465950594   -0.1267633883115588     0.0825804264471654     0.012968675427012832    0.22186969929702277    
+0.24306366320048228     -0.13200195564323805   0.04080093433928997    -0.3303452891106285     -0.2544552736357824    0.22071806279955836    -0.12168848586543243   -0.044381950163734266   0.20113670369324887    -0.003474267638230305  -0.21452210752687648   -0.10390923211581987   0.09221326235985576    -0.1613561904994496     0.12559688577495068    0.39626065522632486     -0.09157333698864373   0.12527188559425786     -0.001504713515501202   0.06868738649102106     -0.18539030945039212   0.05094494099799311    0.03878199027108774    -0.2382943864228353    -0.06724248956786551   -0.186680599862788      0.10268570190628118    -0.15344600867916894   0.02274602043735441    -2.4567836722095963E-4  0.09157263370719546    -0.19367211769925646   0.08258538929275522     0.17039365273154936    0.09358390263962567     0.04882209295733198     0.046110794639628486   -0.22170938529497444    0.1756859189311851     0.018652714514988768    0.06651352553146456    
+0.08689903398987926     -0.057519342044242396  -0.06898153506654389   0.11020749632491521     -0.14610251534130414   -0.014825520597552305  0.02037363700481867    -0.04415693663181072    0.04130007462334195    -0.05115236123918161   0.019862300104285052   -0.16910879805524798   0.22307262679787054    -0.2210833480909183     -0.07344678370602804   0.22359754495976655     0.11596500290547504    0.13038384718386484     0.01074509464215951     -0.08477571280805696    0.16803836704642278    -0.35888555576332876   0.15998954066144494    0.006967119649268709   -0.09641842643700507   0.6103401434674957      -0.20023777151146718   0.10231137564255834    -0.10722664120639505   -0.0112749170771832     0.12514233688160498    0.08946489392137208    -0.15317777396333246    0.01258127995201104    -0.05986654047118849    0.0190840417336361      -0.08760055038722067   -0.11450838360935647    0.03447074501451612    0.15054886261426112     0.02563732996921117    
+0.12968157955790705     -0.05253010034427434   0.1156026923569074     -0.031180931762843422   -0.027665106851276013  0.03156499161958701    -0.049447145796903874  0.041496329280639295    4.215724984228675E-4   -0.012184608030838893  -0.0505968918539982    -0.022441688073510033  -0.13137119956612484   0.1600262488895946      -0.09387786211107899   0.04663376981398444     -0.015311724631578233  0.14700022967440707     -0.06877984506729906    0.0572752822823582      0.5390101984195397     0.1383905942682212     -0.0804075252417985    0.012940134226799932   -0.13897567553599122   -0.1951471944417662     -0.6088280884359467    0.0722154033075813     -0.056376860930961836  -0.0645090274468455     0.07964049293763789    -0.04958588487796853   0.025578486987051677    0.16387011698218373    0.031671224352564004    0.17194450381150952     0.026548707452108692   -0.006632510850738928   -0.009089599235269181  -0.20764588011409588    -0.07397078094196109   
+0.31551658300934227     -0.22918652437203668   -0.06553090094903806   0.04092615585823458     -0.11832020848586951   -0.13676705035011477   -0.11058393841685038   0.10218580100603883     -0.003651987640461679  0.008797486950290034   0.05536308457173589    0.01155691491361921    -0.12484732467718039   0.1621287665558663      0.004084110015067949   0.20065121761455695     -0.14400835999314499   -0.1508216617833575     -0.13679742734777373    0.08682997157911677     0.03548430697420099    0.23772118100200484    -0.11392629104875149   -0.028514945697995536  0.4377812682889413     0.21018161235744168     -0.09998516090131998   0.14579756876506172    -0.008153963622788807  0.14418303855748665     -0.17667287330195214   0.07391933558037256    0.10294337557345534     -0.07746883955471262   -0.07595952248013019    -0.2604570272483979     -0.01903817863277925   0.08808018602373827     0.08984252963692813    0.06683170687711008     0.3526421720599535     
+0.10511685479449387     -0.1369870021831376    0.030251880521154483   0.027983483456685877    -0.08070114168087028   -0.06237418162303379   -0.08269655601537111   0.05929996704085197     0.04841551387010695    0.015303696089028412   0.031000121441883983   0.007697200229095404   -0.13063003406884122   0.10042463782948957     -0.04391222204651408   0.08716317996832128     0.0552622021778328     0.07611720277300445     -0.04827784535365072    -0.02348949240226947    -0.026038708474360024  -0.013498712030206132  0.015505492670239422   0.06816254797377178    -0.07638339739181452   0.26347271873214057     0.3632626887847174     0.1438977466518664     0.057592347242458805   -0.03352479595857287    -0.08781474019698937   -0.020943289565716935  0.06403196308682114     -0.12852204996189215   -0.05460626085680132    0.3975224815610272      0.07109623811704194    0.02090878195996488     0.0384259341767393     -0.6771527285543026     -0.0483745060845483    
+0.1428849626097696      -0.1398549057144538    0.07920988889837738    -0.029765173368440204   0.05922434286512917    0.03497495523429563    0.03141621455454732    -0.07742766085231034    0.00763308417285951    -0.0956765636764825    0.024625019232035653   -0.08970036164863149   -0.2553819336368237    0.40906898197117153     -0.08483837730582469   0.12435358089113374     0.30021279968161       0.1416797710340932      0.035277521103925305    -0.040826259802713524   -0.032682397436154205  -0.029188879088548884  -0.0144887618637594    0.029598480787539655   -0.2579318147910986    -0.0487849861314011     0.23839516449833448    0.3920267677975322     -0.014772100402161793  -0.06607716139340125    -0.13003539636033684   0.06385959528180032    0.08749901154830553     0.14137933253752788    0.029844395235560678    -0.13649534093521928    -0.1080257235918252    -0.02344266223244492    0.09751909770821242    0.35275699972279223     -0.23155895172893998   
+0.3272116632005179      -0.29402757514640604   -0.01439469196200421   -0.0015669399036872147  0.15907022672606277    0.00889245027703453    0.10553380099314089    -0.012269451106885897   -0.08739882627174134   -0.01953006208598447   -0.032495702697991874  0.056502215626386076   0.07765548688365653    -0.061526760696219235   -0.005729241663523579  -0.11525773092405067    0.3287202346330562     -0.4947553662894757     0.014367011675891939    -0.0597704383748969     -0.06455328732851581   0.017531481469829968   -0.015350637147658386  0.03735209760684302    -0.3736646656879094    -0.077260539759296      -0.04315579223812041   -0.10155377009232475   -0.025281491257039768  -0.01337871922386391    0.06549928479342271    0.027030872346056      -0.055321396980901785   0.01794879714633537    0.03922179645494757     0.17557854077113028     -0.03407884590482563   0.015763507146063865    -0.07307616105414907   0.019080381714275233    0.40620540783647563    
+
+************* Keywords (only tf-idf based) *************
+
+biden, budget, trillion, debt, mr, 2022, president, proposal, 2031, pandemic, republican, plan, congress, infrastructure
+
+************* Scored Sentences (based on tf-idf and LSA, ordered by priority) *************
+
+(score, sentence id, sentence text)
+(1.0,10,What Biden administration officials don't say outright is that Democrats currently control the White House, Senate and the House, a potentially once-in-a-generation opportunity for Democrats to implement their agenda.)
+(0.6900540387289794,5,Mr. Biden's proposed budget for fiscal year 2022 surpasses former President Trump's proposed budget last year of $4.8 trillion, and comes after trillions the U.S. has already spent to battle the dual health and economic crises brought about by the COVID-19 pandemic.)
+(0.6634434172501902,1,President Biden on Friday unveiled an historically large $6 trillion 2022 budget, making his case to Congress that now is the time for America to spend big.)
+(0.5773163956887349,14,It's not clear how the American Jobs Plan and American Families Plan would affect real annual GDP growth, which the Biden administration estimates will be 2% in 10 years without those two plans.)
+(0.5742424461159679,28,Republicans, who have already been blasting Mr. Biden's proposals as too massive, are sure to balk at not only the $6 trillion price tag for 2022, but also at the ever-increasing budgets and increasing national debt the White House projects into the future.)
+(0.5369177474108345,20,The budget also calls on Congress to address prescription drug prices and to expand Medicare.)
+(0.5239552221231113,33,Mr. Biden is sending his budget to Congress well beyond a deadline than is typical for a president, after a delayed transition and as the Biden administration still lacks a confirmed OMB director.)
+(0.42607654286022767,39,We should work to leave our children a strong economy and a sound budget, not a mountain of debt.)
+(0.4130375078982877,0,What's in Biden's record $6 trillion budget for 2022.)
+(0.4036777742044254,11,"We certainly believe that the president's budget improves the long term fiscal outlook because his policies are more than paid for over the long run," Office of Management and Budget Deputy Director Shalanda Young said on the conference call with reporters Friday morning. Young noted that the American Jobs Plan and the American Families Plan are "fully offset within 15 years.)
+(0.39297015106908484,36,"The budget proposes $5 trillion of spending and tax breaks and only pays for three-quarters of the cost, leaving nearly $1.4 trillion of higher debt," Committee for a Responsible Federal Budget President Maya MacGuineas said in a statement. "Debt under the budget would hit new records almost every year.)
+(0.38440951085794517,27,Mr. Biden has already outlined much of the spending he wants in the American Jobs Plan and American Families Plan.)
+(0.3787463822813555,29,The national debt, which grew by roughly 74% under former President Barack Obama in eight years and roughly 33% under Mr. Trump in four years, has increased by more than $3 trillion in the barely one year since the pandemic began.)
+(0.3767623165439278,21,The president's budget request for the Pentagon is $715 billion, a 1.6% increase over the current budget.)
+(0.361361721824326,30,The budget proposal comes as the White House continues to negotiate with Republicans and Democrats on the American Jobs Plan.)
+(0.3467311852517806,4,Despite campaigning to an extent on moderation, Mr. Biden's budget is, even in the words of White House officials on a call with reporters Friday, "transformational" and assumes a broader role for the federal government in the social safety net.)
+(0.3424080904712209,8,And by 2031, interest on the debt all by itself would cost almost $914 trillion — more than the federal government spends now on the military or education.)
+(0.34017320206647655,31,Republicans proposed spending less than $1 trillion on infrastructure, far less than what Mr. Biden had originally pitched, but also more than Republicans had offered initially.)
+(0.33971591311426064,34,Mr. Biden initially nominated Neera Tanden for the position, but she withdrew from consideration when it became clear she lacked sufficient support in the Senate.)
+(0.32298402547010197,2,In his first budget proposal, which includes roughly $4 trillion in hoped-for infrastructure and families plan spending in the years ahead, there would be continued deficits and the national debt would continue to rise, even as it eclipses the country's Gross Domestic Product, or GDP.)
+(0.32206697362958286,3,In fiscal year 2022, the debt held by the public is expected to be $26.3 trillion, while GDP is expected to be $23.5 trillion.)
+(0.28484976599896095,24,Mr. Biden's budget proposal is just that — a proposal.)
+(0.21901935880704587,22,Included in that is a $5.1 billion enhancement of the Pacific Deterrence Initiative meant to maintain the United States' edge over China, which Defense Secretary Lloyd Austin calls the department's "pacing challenge." The Pentagon budget request includes $617 million in new investments to tackle climate change.)
+(0.1939786904940056,6,Budget projections show a $6 trillion price tag is just the beginning, with spending steadily increasing each year until the budget reaches $8.2 trillion in 2031.)
+(0.1880317939067992,35,Budget hawks immediately expressed concerns that Mr. Biden's budget will add to the deficit and debt.)
+(0.1810505604735845,25,A president's budget is a blueprint, giving a clear picture of a president's priorities.)
+(0.17920948006788323,12," Mr. Biden has already said he wants to pay for his infrastructure and families plans by increasing taxes on those making more than $400,000, and by increasing the top corporate tax rate to 28%, up from its current rate of 21%.)
+(0.16842759485789066,26,The ball is now in Congress' court, and members will be massaging their own ideas of what the budget should look like in the weeks and months ahead.)
+(0.11882092917699161,7,Budget projections show debt as a percentage of Gross Domestic Product has already reached 100%, and will increase to 117% by 2031, more than the debt-to-GDP ratio of the World War II era.)
+(0.10169775486233741,40," Congress has until the end of September to pass 12 appropriations or spending bills before government funding runs out.)
+(0.09968322276897734,18,provides the most ever discretionary funding for the Centers for Disease Control and Prevention ($8.7 billion);)
+(0.08339052633661562,17,increases funds for civil rights offices and activities across the government;)
+(0.08094448276873327,32,Republicans want an infrastructure package to focus exclusively on so-called "hard" infrastructure, like roads, bridges and tunnels, while Democrats want the package to be much more expansive.)
+(0.07832565656328346,9,The White House argument that now is the time to spend big is predicated on low interest rates and the urgent need for better roads, bridges and jobs.)
+(0.07703955647779548,38,Any comprehensive plan to invest in the future must address our unsustainable fiscal outlook.)
+(0.05841485060871635,15,On a call with reporters Friday, White House officials admitted that there will be "some short term inflation," although they expect that to settle down in the years to come.)
+(0.046643645809490104,16,The president's proposal provides a $500 million increase for Homeless Assistance Grants;)
+(0.044380650810858,37,Furthermore, before we enact trillions of dollars in new initiatives, we need a plan to finance or cut back what we've already committed to.)
+(0.04247955371397816,19,and would put $936 million into a new Accelerating Environmental and Economic Justice Initiative at the Environmental Protection Agency.)
+(0.040524646906523486,23,It also requests more funding for COVID-19 and pandemic response activities, like testing and medical research.)
+(0.028556581539157088,13,The top corporate tax rate was 35% before the Trump-era tax cuts.)
+
+************* Document Summary (reduced from 41 sentences to 14) *************
+
+What's in Biden's record $6 trillion budget for 2022.
+President Biden on Friday unveiled an historically large $6 trillion 2022 budget, making his case to Congress that now is the time for America to spend big.
+Mr. Biden's proposed budget for fiscal year 2022 surpasses former President Trump's proposed budget last year of $4.8 trillion, and comes after trillions the U.S. has already spent to battle the dual health and economic crises brought about by the COVID-19 pandemic.
+What Biden administration officials don't say outright is that Democrats currently control the White House, Senate and the House, a potentially once-in-a-generation opportunity for Democrats to implement their agenda.
+"We certainly believe that the president's budget improves the long term fiscal outlook because his policies are more than paid for over the long run," Office of Management and Budget Deputy Director Shalanda Young said on the conference call with reporters Friday morning. Young noted that the American Jobs Plan and the American Families Plan are "fully offset within 15 years.
+It's not clear how the American Jobs Plan and American Families Plan would affect real annual GDP growth, which the Biden administration estimates will be 2% in 10 years without those two plans.
+The budget also calls on Congress to address prescription drug prices and to expand Medicare.
+The president's budget request for the Pentagon is $715 billion, a 1.6% increase over the current budget.
+Mr. Biden has already outlined much of the spending he wants in the American Jobs Plan and American Families Plan.
+Republicans, who have already been blasting Mr. Biden's proposals as too massive, are sure to balk at not only the $6 trillion price tag for 2022, but also at the ever-increasing budgets and increasing national debt the White House projects into the future.
+The national debt, which grew by roughly 74% under former President Barack Obama in eight years and roughly 33% under Mr. Trump in four years, has increased by more than $3 trillion in the barely one year since the pandemic began.
+Mr. Biden is sending his budget to Congress well beyond a deadline than is typical for a president, after a delayed transition and as the Biden administration still lacks a confirmed OMB director.
+"The budget proposes $5 trillion of spending and tax breaks and only pays for three-quarters of the cost, leaving nearly $1.4 trillion of higher debt," Committee for a Responsible Federal Budget President Maya MacGuineas said in a statement. "Debt under the budget would hit new records almost every year.
+We should work to leave our children a strong economy and a sound budget, not a mountain of debt.
