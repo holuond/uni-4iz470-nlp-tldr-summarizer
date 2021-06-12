@@ -1,7 +1,7 @@
-// ************* Example Input Document (scroll below for the summary) *************
-// Article from CBS Kathryn Watson & Sara Cook @ https://www.cbsnews.com/news/biden-budget-6-trillion-proposal-2022/
+## Example Input Document
+Source: [Article from CBS](https://www.cbsnews.com/news/biden-budget-6-trillion-proposal-2022/) (Kathryn Watson & Sara Cook)
 
-What's in Biden's record $6 trillion budget for 2022.
+> What's in Biden's record $6 trillion budget for 2022.
 President Biden on Friday unveiled an historically large $6 trillion 2022 budget, making his case to Congress that now is the time for America to spend big.
 In his first budget proposal, which includes roughly $4 trillion in hoped-for infrastructure and families plan spending in the years ahead, there would be continued deficits and the national debt would continue to rise, even as it eclipses the country's Gross Domestic Product, or GDP.
 In fiscal year 2022, the debt held by the public is expected to be $26.3 trillion, while GDP is expected to be $23.5 trillion. Despite campaigning to an extent on moderation, Mr. Biden's budget is, even in the words of White House officials on a call with reporters Friday, "transformational" and assumes a broader role for the federal government in the social safety net.
@@ -22,9 +22,10 @@ Budget hawks immediately expressed concerns that Mr. Biden's budget will add to 
 "The budget proposes $5 trillion of spending and tax breaks and only pays for three-quarters of the cost, leaving nearly $1.4 trillion of higher debt," Committee for a Responsible Federal Budget President Maya MacGuineas said in a statement. "Debt under the budget would hit new records almost every year. Furthermore, before we enact trillions of dollars in new initiatives, we need a plan to finance or cut back what we've already committed to. Any comprehensive plan to invest in the future must address our unsustainable fiscal outlook. We should work to leave our children a strong economy and a sound budget, not a mountain of debt."
 Congress has until the end of September to pass 12 appropriations or spending bills before government funding runs out.
 
-// ************* Document Summary (reduced from 41 sentences to 14) *************
+## Document Summary
+(using user-defined reduction ratio of 66 % - from 41 sentences to 14)
 
-What's in Biden's record $6 trillion budget for 2022.
+>What's in Biden's record $6 trillion budget for 2022.
 President Biden on Friday unveiled an historically large $6 trillion 2022 budget, making his case to Congress that now is the time for America to spend big.
 Mr. Biden's proposed budget for fiscal year 2022 surpasses former President Trump's proposed budget last year of $4.8 trillion, and comes after trillions the U.S. has already spent to battle the dual health and economic crises brought about by the COVID-19 pandemic.
 What Biden administration officials don't say outright is that Democrats currently control the White House, Senate and the House, a potentially once-in-a-generation opportunity for Democrats to implement their agenda.
@@ -39,6 +40,6 @@ Mr. Biden is sending his budget to Congress well beyond a deadline than is typic
 "The budget proposes $5 trillion of spending and tax breaks and only pays for three-quarters of the cost, leaving nearly $1.4 trillion of higher debt," Committee for a Responsible Federal Budget President Maya MacGuineas said in a statement. "Debt under the budget would hit new records almost every year.
 We should work to leave our children a strong economy and a sound budget, not a mountain of debt.
 
-// ************* Keywords (only based on tf-idf) *************
+## Keywords
 
 biden, budget, trillion, debt, mr, 2022, president, proposal, 2031, pandemic, republican, plan, congress, infrastructure
