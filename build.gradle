@@ -15,7 +15,7 @@ plugins {
 }
 
 group = 'nlp_4iz470'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1'
 sourceCompatibility = '1.8'
 
 def scalaToolsVersion = '2.11'
