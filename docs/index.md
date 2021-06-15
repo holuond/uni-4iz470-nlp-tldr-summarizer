@@ -94,7 +94,10 @@ The training corpus thus consists of more than 150 million words and a vocabular
 
 ## Evaluation
 
-The proposed evaluation method is statistical comparison with the [SMMRY](https://smmry.com) application (which powers the [autotldr Reddit bot](http://autotldr.io)).
+As there is no clear ideal solution in text summarization, the proposed evaluation method is statistical comparison
+with outputs from a number of widely used summarization tools aggregated into an intersection of the most influential sentences.
+For the purposes of this work, a substantial simplification is made by substituting this consensus sentence set with
+just the results provided by the [SMMRY](https://smmry.com) application (which powers the [autotldr Reddit bot](http://autotldr.io)).
 
 A method using a one-sided hypergeometric/Fisher's exact test is proposed, the null hypothesis being that TLDR Summarizer
 only achieves a success rate equal to random sampling, with the one-sided alternative suggesting that the tool achieves
@@ -121,3 +124,4 @@ Several improvements and directions for future work are suggested:
 - Investigate the U matrix - observe what groups of lemmas influence the most significant latent concepts.
 - Evaluate pipeline performance on a multi-node cluster.
 - Find a sentence splitter that has better performance when it comes to quoted sentences.
+- Evaluate the success of the tool using numerous heterogeneous input documents while comparing the results to a large consensus dataset acquired from multiple widely used summarization tools
